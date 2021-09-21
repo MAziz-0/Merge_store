@@ -1,0 +1,58 @@
+[
+    {
+      "pk": 1,
+      "model": "products.category",
+      "fields": {
+        "name": "electronics",
+        "friendly_name": "Electronics"
+      }
+    },
+    {
+      "pk": 2,
+      "model": "products.category",
+      "fields": {
+        "name": "smart_tech",
+        "friendly_name": "Smart Tech"
+      }
+    },
+    {
+      "pk": 3,
+      "model": "products.category",
+      "fields": {
+        "name": "computing",
+        "friendly_name": "Computing"
+      }
+    },
+    {
+      "pk": 4,
+      "model": "products.category",
+      "fields": {
+        "name": "mobile_device",
+        "friendly_name": "Mobile Devices & Accessories"
+      }
+    },
+    {
+      "pk": 5,
+      "model": "products.category",
+      "fields": {
+        "name": "gaming",
+        "friendly_name": "Gaming"
+      }
+    },
+    {
+      "pk": 6,
+      "model": "products.category",
+      "fields": {
+        "name": "consoles",
+        "friendly_name": "Consoles"
+      }
+    },
+    {
+      "pk": 7,
+      "model": "products.category",
+      "fields": {
+        "name": "virtual_reality",
+        "friendly_name": "Virtual Reality"
+      }
+    }
+  ]
