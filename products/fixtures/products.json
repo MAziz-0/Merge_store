@@ -1,579 +1,314 @@
 [
-    {
-      "pk": 1,
-      "model": "products.product",
-      "fields": {
-        "sku": "pp5001340155",
-        "name": "Amazon Echo Dot",
-        "description": "Complete any room with Alexa. Our most popular smart speaker has a sleek, compact design that fits perfectly into small spaces. It delivers crisp vocals and balanced bass for full sound you can enjoy anywhere in your home.",
-        "price": 49.99,
-        "category": 2,
-        "rating": 4.8,
-        "image": "echodot.jpg"
-      }
-    },
-    {
-      "pk": 2,
-      "model": "products.product",
-      "fields": {
-        "sku": "pp5001600425",
-        "name": "Apple Airpods Pro",
-        "description":
-        "Magic like you’ve never heard
-        AirPods Pro have been designed to deliver Active Noise Cancellation for immersive sound, Transparency mode so you can hear your surroundings and a customisable fit for all-day comfort. Just like AirPods, AirPods Pro connect like magic to your iPhone or Apple Watch. And they’re ready to use straight out of the case.
-        
-        Active Noise Cancellation
-        Incredibly light, noise-cancelling headphones, AirPods Pro block out your environment so you can focus on what you՚re listening to. AirPods Pro use two microphones, an outward-facing microphone and an inward-facing microphone, to create superior noise cancellation. By continuously adapting to the geometry of your ear and the fit of the ear tips, Active Noise Cancellation silences the world to keep you fully tuned in to your music, podcasts and calls.
-        
-        Transparency mode
-        Switch to Transparency mode and AirPods Pro let the outside sound in, allowing you to hear and connect to your surroundings. Outward- and inward-facing microphones enable AirPods Pro to undo the sound-isolating effect of the silicone tips so things sound and feel natural, like when you’re talking to people around you.
-        
-        All-new design
-        AirPods Pro offer a more customisable fit with three sizes of flexible silicone tips to choose from. With an internal taper, they conform to the shape of your ear, securing your AirPods Pro in place and creating an exceptional seal for superior noise cancellation
-        
-        Amazing audio quality
-        A custom-built high-excursion, low-distortion driver delivers powerful bass. A super-efficient high dynamic range amplifier produces pure, incredibly clear sound while also extending battery life. And Adaptive EQ automatically tunes music to suit the shape of your ear for a rich, consistent listening experience.
-        
-        Even more magical
-        The Apple-designed H1 chip delivers incredibly low audio latency. A force sensor on the stem makes it easy to control music and calls, and switch between Active Noise Cancellation and Transparency mode. Announce Messages with Siri gives you the option to have Siri read your messages through your AirPods. And with Audio Sharing, you and a friend can share the same audio stream on two sets of AirPods — so you can play a game, watch a film or listen to a song together.",
-        "price": 249.99,
-        "category": 4,
-        "rating": 4.6,
-        "image": "airpods.jpg"
-      }
-    },
-    {
-      "pk": 3,
-      "model": "products.product",
-      "fields": {
-        "sku": "pp5001730010",
-        "name": "Apple Lightning Cable",
-        "description": "This USB 2.0 cable connects your iPhone, iPad or iPod with Lightning connector to your computer’s USB port for syncing and charging. Or you can connect to the Apple USB Power Adapter for convenient charging from a wall outlet.",
-        "price": 18.99,
-        "category": 4,
-        "rating": 4.7,
-        "image": "appcharger.jpg"
-      }
-    },
-    {
-      "pk": 4,
-      "model": "products.product",
-      "fields": {
-        "sku": "pp5001890157",
-        "name": "Acer Nitro 5",
-        "description": "
-        Full HD gaming
-
-        Enjoy a cutting-edge performance with the Acer Nitro 5 15.6 Gaming Laptop. It features a 10th gen Core™ i5 processor and 8 GB of RAM, so it's powerful enough for all your favourite games.
-        
-        It packs a powerful NVIDIA GeForce GTX 1650 graphics all set for Full HD gaming in high detail. And with the IPS screen, you can expect vivid colours and sharp contrasts - just what you need for immersive gaming.
-        
-        Plus, the 256 GB SSD means you can eliminate boot up times and blast through loading screens.
-        
-        144 Hz IPS screen
-        
-        This Nitro 5 boasts a fast, 144 Hz screen. That means you'll make the most out of high framerates and get to enjoy super-smooth gameplay.
-        
-        With IPS screen technology you can expect vivid colours, sharp contrast and amazing brightness. What's more, it has wide viewing angles, so you can enjoy all that even looking from the sides.
-        
-        Stays cool under pressure
-        
-        Featuring twin fans and dual exhausts, the Nitro 5 stays cool in the heat of the action. Acer's CoolBoost technology increases fan speeds by up to 10% at critical moments, so you won't have to worry about your laptop overheating.
-        
-        With the NitroSense app you can also easily adjust and monitor fan speeds any time with one simple press of the hotkey.
-        
-        WiFi 6 & Killer Ethernet
-        
-        When competing online, a split second can decide the whole match. With WiFi 6 you'll get a stable connection for lag-free gaming with minimal latency. And if you need absolute reliability and speed, you can go wired with the Killer Ethernet port.
-        
-        ___________________________________________________________________________
-        Intel, the Intel logo, Celeron, Intel Atom, Intel Core, Intel. Experience What's Inside, Intel Inside, the Intel Inside logo, Intel Unite, Iris, Pentium, Thunderbolt, the Thunderbolt logo, and Ultrabook are trademarks of Intel Corporation in the U.S. and/or other countries.",
-        "price": 649.99,
-        "category": 3,
-        "rating": 4.5,
-        "image": "budgetlap.jpg"
-      }
-    },
-    {
-      "pk": 5,
-      "model": "products.product",
-      "fields": {
-        "sku": "pp5002111605",
-        "name": "Samsung Galaxy Buds Pro",
-        "description": "These are true wireless earbuds, with pro-grade technology for immersive sound like never before. While Intelligent ANC lets you seamlessly switch between noise canceling and fully adjustable ambient sound. So let the outside in - or keep it out. It's your world. Galaxy Buds Pro let you hear the best of it.",
-        "price": 219.99,
-        "category": 4,
-        "rating": 4.8,
-        "image": "buds.jpg"
-      }
-    },
-    {
-      "pk": 6,
-      "model": "products.product",
-      "fields": {
-        "sku": "pp5002260206",
-        "name": "Google Nest Mini (2nd Gen)",
-        "description": "
-        Nest Mini
-        
-        Just like the original Mini, the Google Nest Mini is compact, discreet, and has the super-helpful Google Assistant built-in. This time round, the Nest Mini has bigger, richer sound with 2 x stronger bass and improved voice recognition. Asking for your 90s Ibiza playlist has never been easier.
-        
-        It's got an eco-conscious side too, with a durable fabric top that's been made from 100% recycled plastic bottles.
-        
-        Here to help
-        
-        Want to know if you'll need an umbrella the next time you head out? Ask Google, and the Nest Mini will let you know if any rain is expected. You can also get the latest sports, finance, news updates, and more. Stay organised and ask Google to manage your schedule. Mark dates in your diary, set reminders, alarms, and more.
-        
-        Never be stuck for an answer. Ask for things such as translations, calculations, unit conversions, and anything else you want to know the answer to. You can even play games with all your family.
-        
-        Control your smart home
-        
-        Use your voice to dim the lights, adjust your smart thermostat, lock your front door, play music from WiFi-connected speakers, and more. Just say "OK Google" followed by your command, and Nest Mini will take care of it.
-        
-        Stream TV shows and movies
-        
-        Forget flicking through apps and menus. Tell Google exactly want you to watch on your Chromecast TV (sold separately) and you'll be watching in moments.
-        
-        And if you've got other Chromecast speakers, you can group and sync them to play the same songs around your home.
-        
-        Personalised for you
-        
-        Google Nest Mini supports multiple users. That means it can give you a personalised experience by differentiating your voice from other people in your home. Just say "OK Google" and enjoy your own unique benefits from Google Assistant.",
-        "price": 48.99,
-        "category": 2,
-        "rating": 4.7,
-        "image": "googlenest.jpg"
-      }
-    },
-    {
-      "pk": 7,
-      "model": "products.product",
-      "fields": {
-        "sku": "pp5002440521",
-        "name": "Apple iMac 5k",
-        "description": "5K iMac
-
-        The beautiful iMac design that you know. But bigger and better. The Apple iMac 5K has been upgraded to give you all the power you need to tackle serious projects (as well as everything else you do each day). You've got a fast processor, impressive AMD graphics and a beautiful Retina Display.
-        
-        The 5K screen is able to create 1 billion colours, so each video and image looks as good as it does in real life. True Tone brings even more realism to what's on your screen. Whether you're helping the kids with homework, finishing off a video or making final edits to your photography, every image will be full of bright and vibrant colour.
-        
-        Responsive computing
-        
-        Finish off a presentation, then relax with a film or just browse around online – the 10th generation 6-core Intel® Core™ i5 processor gives you the power to do it all. And let's not forget the 512 SSD that gives you plenty of space for projects and pictures. No more needing to dig out the external hard drive to save your photos.
-        
-        Like having loads of tabs open at once? Well, the iMac has 8 GB of RAM, which helps you multitask without anything slowing down.
-        
-        It's all topped off with a studio quality mic that makes recordings sound great.
-        
-        macOS Catalina
-        
-        MacOS Catalina is the perfect operating system for your iMac. It's super-secure, gives you loads of uniquely designed apps that work perfectly on a Mac, and has intuitive controls for everything you do each day. 
-        
-        Designed to bring your devices together in a whole new way, the iMac is the perfect partner for your other Apple devices. With Sidecar, you can even use you iPad as a second display for your iMac.
-        
-        Magic Mouse 2 & Keyboard
-        
-        Included in the box is the Magic Keyboard and Magic Mouse 2 – the perfect pair for your iMac. Both are rechargeable via Apple's Lightning cable, so you'll never have to look for batteries again. Just pop the cable in to charge - it only takes 2 minutes to add up to 9 hours of charge.
-        
-        ___________________________________________________________________________
-        Ultrabook, Celeron, Celeron Inside, Core Inside, Intel, Intel Logo, Intel Atom, Intel Atom Inside, Intel Core, Intel Inside, Intel Inside Logo, Intel vPro, Itanium, Itanium Inside, Pentium, Pentium Inside, vPro Inside, Xeon, and Xeon Inside are trademarks of Intel Corporation in the U.S. and/or other countries.",
-        "price": 1689.99,
-        "category": 3,
-        "rating": 4.9,
-        "image": "imac.jpg"
-      }
-    },
-    {
-      "pk": 8,
-      "model": "products.product",
-      "fields": {
-        "sku": "pp5002601115",
-        "name": "Apple iPad Mini (2021)",
-        "description": "Edge-to-edge Liquid Retina display
-
-        With a stunning all-screen design, Apple iPad mini gives you more room to watch, work and create. The edge-to-edge Liquid Retina display brings content to life with vivid colours and sharp text, while ultra-low reflectivity lets you work from anywhere.
-        
-        Handwrite notes, doodle and sketch with the 2nd generation Apple Pencil (sold separately). It attaches magnetically to the side of iPad mini, ready for when creativity strikes.
-        
-        Powerful and portable
-        
-        From complex editing software to demanding graphic-intensive games, the A15 Bionic chip provides plenty of power for work and play. Delivering up to a 40% faster performance than the previous iPad mini, there's nothing holding you back.
-        
-        And with up to 10 hours of battery life, you can surf and stream all-day long.
-        
-        Ultra-wide camera fits everything in
-        
-        Your FaceTime calls just levelled up. Using the 12 MP Ultra Wide camera and machine learning, Centre Stage keeps you in the centre of frame as you move around. So the focus is always on you - even if you're on the go.
-        
-        Touch ID
-        
-        Unlock your iPad mini or securely make a payment with the integrated Touch ID button. It provides advanced security for everything you do. Use Apple Pay or download apps just using your fingerprint.",
-        "price": 479.99,
-        "category": 4,
-        "rating": 4.7,
-        "image": "ipadm.jpg"
-      }
-    },
-    {
-      "pk": 9,
-      "model": "products.product",
-      "fields": {
-        "sku": "pp5002690715",
-        "name": "Apple iPad Pro (2020)",
-        "description": "Transform your iPad into a laptop
-
-        With a tablet like the Apple 12.9” iPad Pro (2020) - who needs a laptop? Compatible with the Apple Pencil and Magic Keyboard, the iPad Pro does everything a PC can do.
-        
-        Plus, weighing under 600 g and packing a 10-hour battery life, it's perfect for working, streaming and browsing on the go.
-        
-        Liquid Retina display
-        
-        The bright edge-to-edge Liquid Retina display gives you more room to work, watch and create.
-        
-        ProMotion, True Tone technologies provide incredibly accurate colour, so you can enjoy your content the way it was meant to be seen. And with incredibly low reflexivity, the display is always clear and readable no matter where you are.
-        
-        Ultra-wide camera fits everything in
-        
-        Take perfectly framed photos with the 12 MP wide and 10 MP ultra-wide rear cameras. So good it's used by NASA, the LiDAR scanner measures distance for improved depth perception in your images.
-        
-        Make FaceTime more fun by turning yourself into an Animoji with the TrueDepth front camera. It also enables Face ID to keep your files safe and secure.
-        
-        A12Z Bionic processor
-        
-        Featuring the Apple A12Z Bionic chip, the iPad Pro runs faster than most PC laptops. With eight-cores of power, you'll get a smooth and speedy performance whether it's social media or graphic-intensive editing apps. Designed with creators in mind, the processor can easily handle 4K video editing as well as AR and 3D design.",
-        "price": 999.99,
-        "category": 4,
-        "rating": 4.7,
-        "image": "ipadpro.jpg"
-      }
-    },
-    {
-      "pk": 10,
-      "model": "products.product",
-      "fields": {
-        "sku": "pp5002701115",
-        "name": "Apple Macbook Air M1 (2020)",
-        "description": "Thin and fast with the Apple M1 chip
-
-        Incredibly light and boasting a speedy performance, get your work done anywhere with the MacBook Air (2020).
-        
-        From video-editing to gaming, the Apple M1 chip lets you take on the biggest tasks without draining your battery. It's 3.5x faster than the previous generation, with eight-cores of power providing an incredible performance. And for whisper-quiet operation, the improved thermal efficiency means it doesn't even need a fan.
-        
-        With the Retina Display screen, everything from blockbuster movies to everyday browsing is a visual joy. True Tone technology automatically adjust the display to your environment - so web pages and emails look as natural as if they were printed.
-        
-        SSD for superfast loading
-        
-        At the heart of the MacBook Air is a solid state drive with 256 GB of storage space. So, there's plenty of room for your work projects, movies, photos and music. And it's twice as fast as the previous MacBook Air, so you can load up your important files at lightning-speed.
-        
-        Browse all day with up to 18 hours of battery life
-        
-        Forget the mid-day recharge. Thanks to the M1 chip, the MacBook Air will give you up to 15 hours of web browsing, or up to 18 hours of the content you love on Apple TV. That's plenty for the entire working day, as well as your entertainment on the journey to and from the office. 
-        
-        More detail in your FaceTime calls
-        
-        Look your best on FaceTime calls thanks to the M1 chip. It uses an image signal processor to give clearer, sharper images, while the Neural Engine can recognise faces to adjust white balance and exposure for improved, natural-looking skin.
-        
-        Unlock your MacBook securely with Touch ID
-        
-        Forgotten passwords are a thing of the past thanks to the MacBook Air's Touch ID sensor. Simply place your finger over the sensor to unlock with nothing but your fingerprint, for effortless security wherever you are. It's great for accessing sensitive documents and system settings or shopping online with Apple Pay, so you can keep everything important safe.",
-        "price": 949.99,
-        "category": 3,
-        "rating": 4.9,
-        "image": "macbook.jpg"
-      }
-    },
-    {
-      "pk": 11,
-      "model": "products.product",
-      "fields": {
-        "sku": "pp5002761055",
-        "name": "Apple Macbook Pro M1 (2020)",
-        "description": "Get more done with the Apple M1 chip
-
-        Everything you love about the MacBook Pro. But with more power.
-        
-        From video-editing to gaming, the Apple M1 chip lets you take on the biggest tasks and creative projects without draining your battery. It's 2.8x faster than the previous generation, with eight-cores of power providing an incredible performance.
-        
-        Don't waste time waiting for things to load. The MacBook Pro is super responsive and wakes instantly. Plus, with speedy SSD storage, you'll be able to save files, load programs and access huge video and image files in a moment.
-        
-        Touch Bar with Touch ID
-        
-        Apple's Touch Bar replaces the function keys at the top of your keyboard, so you can see relevant controls depending on what you're doing. Watching a film? Rewind or skip forward with the Touch Bar. Editing photos? Adjust, crop and filter the image – all from the Touch Bar.
-        
-        Touch ID provides advanced security for everything you do. Unlock your MacBook securely, use Apple Pay without remembering your password, and access private files with just your fingerprint.
-        
-        Razor thin and feather light
-        
-        Take your MacBook Pro with you wherever you are - the library, the daily commute, an important business meeting. It's feather light at just 1.4 kg.
-        
-        Forget the mid-day recharge. Thanks to the M1 chip, the MacBook Pro will give you up to 17 hours of web browsing, or up to 20 hours of the content you love on Apple TV. Perfect for a full working day and beyond.
-        
-        Brilliant Retina display
-        
-        Enjoy enhanced videos, images, and games with the enhanced Retina display that's brighter and more colourful than previous generations. The LED backlit display offers true-to-life images with vivid, realistic details – essential for graphic design, colour grading, and editing.
-        
-        True Tone technology automatically adjusts the images you see to the lighting around you – so everything looks great whether you're finishing an edit late at night or in bright sunlight.
-        
-        More detail in your FaceTime calls
-        
-        Look your best on FaceTime calls thanks to the M1 chip. It uses an image signal processor to give clearer, sharper images, while the Neural Engine can recognise faces to adjust white balance and exposure for improved, natural-looking skin.
-        ",
-        "price": 1200.00,
-        "category": 3,
-        "rating": 4.9,
-        "image": "macbookpro.jpg"
-      }
-    },
-    {
-      "pk": 12,
-      "model": "products.product",
-      "fields": {
-        "sku": "pp5002820069",
-        "name": "Oculus Rift S",
-        "description": "Oculus Rift S designed in collaboration with Lenovo puts you at the centre of virtual reality's most pulse-pounding, PC-powered gameplay. See the action unfold around you through our sharpest lenses and next-generation optics. Lose yourself in the experience with a comfortable, improved design that lets you start playing faster and keep playing longer. Oculus Rift S requires your Facebook account to log in, making it easy to meet up with friends in VR & discover communities around the world. USB 3.0 port. Windows PC only.
-
-        Oculus Insight tracking gives you the power to move throughout your play space in any direction. No external sensors. No complicated setup. Just hands-on action and interaction with our updated Oculus Touch controllers out of the box. Step into the game and the future of PC VR.
-        
-        Top VR Gaming Library. Blast, slash and soar your way through the top library in VR gaming. Oculus Rift S lets you play hundreds of games and exclusives already available in the Oculus Store, with so much more to come.
-        
-        Improved Optics. Stare down the competition with next-generation lenses and a sharper display. Improved optics deliver bright, vivid colours and a reduced "screen-door" effect.
-        
-        Ergonomic Design. Keep your head in the game thanks to a halo headband redesigned with speed in mind. Rift S stays securely and comfortably in place with a quick twist of the fit wheel so that it can take, or double-take, your fastest reactions.",
-        "price": 299.99,
-        "category": 7,
-        "rating": 4.8,
-        "image": "oculus.jpg"
-      }
-    },
-    {
-      "pk": 13,
-      "model": "products.product",
-      "fields": {
-        "sku": "pp5002820147",
-        "name": "PlayStation 5 Console",
-        "description": "
-        The PS5 console unleashes new gaming possibilities that you never anticipated
-        Experience lightning-fast loading with an ultra-high-speed SSD, deeper immersion with support for haptic feedback, adaptive triggers and 3D Audio, and an all-new generation of incredible PlayStation games
-        Lightning Speed - Harness the power of a custom CPU, GPU and SSD with Integrated I/O that rewrite the rules of what a PlayStation console can do
-        Stunning Games - marvel at incredible graphics and experience new PS5 features
-        Breathtaking Immersion - discover a deeper gaming experience with support for haptic feedback, adaptive triggers, and 3D Audio technology",
-        "price": 459.99,
-        "category": 6,
-        "rating": 4.8,
-        "image": "ps5.jpg"
-      }
-    },
-    {
-      "pk": 14,
-      "model": "products.product",
-      "fields": {
-        "sku": "pp5002910572",
-        "name": "PlayStation VR Bundle",
-        "description": "Live the game: take gaming to new heights, depths and levels of immersion to discover breathtaking new worlds every time you put on the headset
-        360 vision: absorb every second of the action through a custom 5.7' Oled screen with smooth visuals and Super low latency
-        3D audio: hear approaching footsteps or distant screams with pinpoint accuracy through cutting-edge Surround Sound
-        intuitive controls: a complete tracking system follows every movement of the dualshock 4 Wireless Controller, PlayStation Move motion controllers) or PlayStation VR aim controller
-        built-in microphone: chat with friends to swap hints and tactics with the built-in microphone
-        one size fits all: the PS VR headset is designed to be very easy to put on and take off, with an adjustable headband and optical scope for the perfect fit",
-        "price": 349.99,
-        "category": 7,
-        "rating": 4.7,
-        "image": "psvr.jpg"
-      }
-    },
-    {
-      "pk": 15,
-      "model": "products.product",
-      "fields": {
-        "sku": "pp5002990740",
-        "name": "Ring Doorbell 4",
-        "description": "1080p HD Video Doorbell with Two-Way Talk, Advanced Motion Detection, Colour Pre-Roll, enhanced dual-band wifi and Customisable Privacy Settings to help protect your home.
-        HD Video and Live View let you see what's happening at home and with Two-Way Talk you can speak to every visitor to your door, from wherever you are.
-        Receive real-time notifications on your phone or tablet whenever someone presses your doorbell, or if you're busy, save time and use Quick Replies to respond with a pre-selected message.
-        See more of what happened at your front door with Colour Pre-Roll video previews, which adds up to 4 seconds of extra video for every motion event.
-        Powered by a rechargeable Quick Release Battery Pack for easy recharging.
-        Pair with a Ring Chime or a compatible Alexa-enabled device to hear audio notifications around your home.",
-        "price": 179.99,
-        "category": 2,
-        "rating": 4.8,
-        "image": "ring.jpg"
-      }
-    },
-    {
-      "pk": 16,
-      "model": "products.product",
-      "fields": {
-        "sku": "pp5003050248",
-        "name": "ROG Zephyrus Duo 15",
-        "description": "With its innovative ROG ScreenPad Plus secondary display, the Zephyrus Duo 15 SE takes Windows 10 gaming to new dimensions. Cutting-edge cooling empowers the latest AMD Ryzen 9 5900H CPU and NVIDIA GeForce RTX 3070 GPU. A choice between ultrafast 300Hz/3ms or high-res 4K 120Hz/3ms gaming panels lets you tailor your system for pro-level esports or content creation. Elevate your entire experience with premium audio delivered by quad speakers and immersive Dolby Atmos surround sound.",
-        "price": 2499.99,
-        "category": 3,
-        "rating": 5,
-        "image": "roglaptop.jpg"
-      }
-    },
-    {
-      "pk": 17,
-      "model": "products.product",
-      "fields": {
-        "sku": "pp5003070787",
-        "name": "iRobot Roomba i7",
-        "description": "The Roomba® i7 robot vacuum uses a premium 3-Stage Cleaning System with Dual Multi-Surface Rubber Brushes and 10× suction* to clean different floor surfaces throughout your home. Roomba® i7 learns, maps, and adapts to each room, using Imprint™ Smart Mapping technology, letting you control which rooms are cleaned and when. Add the Clean Base™ Automatic Dirt Disposal and the robot automatically empties into a disposable bag, so you don’t have to think about vacuuming for weeks at a time. Cleaning power is always at your fingertips with the iRobot HOME App — you can control when, where, and how your robot cleans all from your smartphone.",
-        "price": 599.99,
-        "category": 2,
-        "rating": 4.7,
-        "image": "roomba.jpg"
-      }
-    },
-    {
-      "pk": 18,
-      "model": "products.product",
-      "fields": {
-        "sku": "pp5003090182",
-        "name": "Steam Deck 256GB",
-        "description": "Portability meets power
-
-        We partnered with AMD to create Steam Deck's custom APU, optimized for handheld gaming. It is a Zen 2 + RDNA 2 powerhouse, delivering more than enough performance to run the latest AAA games in a very efficient power envelope.
-        
-        Your Steam Library, anywhere
-        
-        Once you've logged into Steam Deck, your entire Steam Library shows up, just like any other PC. You'll be able to find your collections and favorites - exactly where you left them.
-        
-        Control with comfort
-        
-        The Steam Deck was built for extended play sessions—whether you're using thumbsticks or trackpads—with full-size controls positioned perfectly within your reach. The rear of the device is sculpted to comfortably fit a wide range of hand sizes.",
-        "price": 459.99,
-        "category": 6,
-        "rating": 4.8,
-        "image": "steamdeck.jpg"
-      }
-    },
-    {
-      "pk": 19,
-      "model": "products.product",
-      "fields": {
-        "sku": "pp5003090186",
-        "name": "Nintendo Switch OLED",
-        "description": "Meet the newest member of the Nintendo Switch family.
-        The new system features a vibrant 7-inch OLED screen, a wide adjustable stand, a dock with a wired LAN port, 64 GB of internal storage, and enhanced audio.
-        Play anytime, anywhere, with anyone. Nintendo Switch can transform to suit your situation, so you can play the games you want, no matter how busy life may be.
-         
-        Pick it up and play with the Joy-Con controllers attached. Nintendo Switch (OLED model) includes a vibrant 7-inch OLED screen with a slimmer bezel. The large screen's vivid colours and high contrast deliver a rich handheld and tabletop gaming experience, bringing games to life whether you're racing at top speed or squaring off against enemies.
-        Flip out the stand and hand a controller to another player to share the screen and enjoy competitive or co-operative multiplayer, anytime and anywhere. Nintendo Switch (OLED model)'s wide adjustable stand can be set to your preferred viewing angle for comfortable gameplay in tabletop mode.
-        Gather around a big screen and enjoy gaming with a crowd. Dock your Nintendo Switch to enjoy HD gaming on your TV. The dock included with Nintendo Switch (OLED model) features two USB ports, an HDMI port for connecting to a TV, and a new wired LAN port, allowing for more stable online play when playing in TV mode.
-        Save games to your system with 64 GB of internal storage & Enjoy enhanced audio from the system’s onboard speakers.",
-        "price": 309.99,
-        "category": 6,
-        "rating": 4.8,
-        "image": "switch.jpg"
-      }
-    },
-    {
-      "pk": 20,
-      "model": "products.product",
-      "fields": {
-        "sku": "pp5003161326",
-        "name": "Samsung Tab S7",
-        "description": "12.4-inch Super AMOLED display with 120Hz refresh rate*
-        The biggest leap in S Pen responsiveness for true writing experience
-        PC-like DeXmode and Multi-Windows for seamless multitasking
-        Storage of a laptop with expandable memory up to 1TB***",
-        "price": 799.99,
-        "category": 4,
-        "rating": 4.8,
-        "image": "tab7.jpg"
-      }
-    },
-    {
-      "pk": 21,
-      "model": "products.product",
-      "fields": {
-        "sku": "pp5003230723",
-        "name": "Samsung USB-Type C",
-        "description": "Fast charging compatible: The USB-C cable can be used to fast-charge your mobile phone, tablet and other USB Type C devices
-        Durable and reliable: The Samsung USB-A to USB-C cable is made of a durable material and provides a secure connection to your smartphone or tablet
-        Longer cable: The charge and sync cable is 1.5 m long, allowing you to use your device whilst it charges
-        High speed charge and sync: The USB-C cable is fast charging compatible, and also allows you to transfer data between devices at blazing speeds
-        Genuine Samsung product: This is an official Samsung product and comes with a 1 year warranty",
-        "price": 4.99,
-        "category": 4,
-        "rating": 4.6,
-        "image": "usbc.jpg"
-      }
-    },
-    {
-      "pk": 22,
-      "model": "products.product",
-      "fields": {
-        "sku": "pp5003270936",
-        "name": "HTC VIVE PRO",
-        "description": "Visualize in 5K fidelity.
-        Explore VR content in brilliant clarity and bring out the finer details with a combined 4896 x 2448 resolution.
-        See more of your environment.
-        A wide 120° horizontal field of view (FOV) expands your visual experience and better aligns with the human eye, letting you see more naturally.
-        Experience seamless, fluid visuals.
-        Enjoy exceptional visual fluidity with 120Hz refresh rate. Experience graphics-intensive applications the way the creators intended.
-        Minimize eye fatigue.
-        Adjust interpupillary distance (IPD) for optimum viewing comfort. Easily find your sweet spot with the dial design while wearing the headset.
-        *IPD - the distance measured in mm between the centers of eye pupils.
-        Precision room-scale tracking.
-        Stay in the moment with precision SteamVR™ Tracking that provides 360-degree coverage of your movement to the millimeter. Use VIVE Pro 2, seated, standing, or in a vast multi-user-friendly space.
-        Submerge in high-quality sound.
-        Hear VR environments the way they're meant to be heard. With 3D spatial sound integration and a powerful amplifier, the Hi-Res certified headphones deliver immersive soundscapes that will change your world.
-        Ergonomic design for balance and comfort.
-        Industry-defining balanced construction and adjustability. A comfortable fit for VR sessions of any length and purpose. Suits a wide-range of head sizes and vision types, even glasses.",
-        "price": 1300.99,
-        "category": 7,
-        "rating": 4.8,
-        "image": "vive.jpg"
-      }
-    },
-    {
-      "pk": 23,
-      "model": "products.product",
-      "fields": {
-        "sku": "pp5003360384",
-        "name": "Xbox Series X 1TB",
-        "description": "Xbox Series X is the fastest, most powerful Xbox gaming console. Experience 1,000s of titles from 4 generations of gaming on Series X – where games look and play better than ever.
-
-        Next-Gen Speed
-        
-        Unleash faster, more streamlined gameplay with Xbox Velocity Architecture. Powered by a custom SSD, Xbox Series X significantly reduces load times. And with new Quick Resume, it’s easy to switch between multiple games in an instant.
-        
-        Power Your Dreams
-        
-        Explore vibrant worlds with an unmatched 12 teraflops of raw graphic processing power. The Xbox Series X console delivers 4K gaming at up to 120 frames per second on supported content and displays, and comes 8K ready.
-        
-        Smart Delivery
-        
-        Smart Delivery on supported Xbox games ensures you’ll play the best available version of your game. Any Xbox One game progress will automatically transfer over to the new system.
-        
-        Accessories
-        
-        The redesigned Xbox Wireless Controller features a textured grip for comfort and a new Share button. Your Xbox One gaming accessories will still be compatible with the Xbox Series X console.
-        
-        Xbox Game Pass Ultimate (sold separately)
-        
-        Download and play over 100 high-quality games, including new titles like Halo Infinite the day they release.",
-        "price": 449.99,
-        "category": 6,
-        "rating": 4.8,
-        "image": "xbox.jpg"
-      }
-    },
-    {
-      "pk": 24,
-      "model": "products.product",
-      "fields": {
-        "sku": "pp5003440111",
-        "name": "Samsung Galaxy Z Flip 5G",
-        "description": "The new Samsung Flip and Fold
-        The new Samsung Galaxy Z Flip3 and Z Fold3 are here. With Samsung’s revolutionary hideaway hinge Infinity Flex Display, the future’s foldable.Actual. Folding. Glass.
-        The world’s first real flexible glass screen. Ultra-thin and ultra-tough, it unfolds seamlessly into a crystal-clear full glass screen. See both phones up close and personal with Samsung Galaxy ExplorAR.",
-        "price": 1229.99,
-        "category": 4,
-        "rating": 4.9,
-        "image": "zflip.jpg"
-      }
-    },
-  ]
+  {
+    "pk": 1,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5001340155",
+      "name": "Amazon Echo Dot",
+      "description": "Complete any room with Alexa. Our most popular smart speaker has a sleek, compact design that fits perfectly into small spaces. It delivers crisp vocals and balanced bass for full sound you can enjoy anywhere in your home.",
+      "price": 49.99,
+      "category": 2,
+      "rating": 4.8,
+      "image": "echodot.jpg"
+    }
+  },
+  {
+    "pk": 2,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5001600425",
+      "name": "Apple Airpods Pro",
+      "description": "Magic like you’ve never heard\\n\\nAirPods Pro have been designed to deliver Active Noise Cancellation for immersive sound, Transparency mode so you can hear your surroundings and a customisable fit for all-day comfort. Just like AirPods, AirPods Pro connect like magic to your iPhone or Apple Watch. And they’re ready to use straight out of the case.\\n\\nActive Noise Cancellation\\n\\Incredibly light, noise-cancelling headphones, AirPods Pro block out your environment so you can focus on what you՚re listening to. AirPods Pro use two microphones, an outward-facing microphone and an inward-facing microphone, to create superior noise cancellation. By continuously adapting to the geometry of your ear and the fit of the ear tips, Active Noise Cancellation silences the world to keep you fully tuned in to your music, podcasts and calls.\\n\\nTransparency mode\\n\\nSwitch to Transparency mode and AirPods Pro let the outside sound in, allowing you to hear and connect to your surroundings. Outward- and inward-facing microphones enable AirPods Pro to undo the sound-isolating effect of the silicone tips so things sound and feel natural, like when you’re talking to people around you.\\n\\nAll-new design\\n\\nAirPods Pro offer a more customisable fit with three sizes of flexible silicone tips to choose from. With an internal taper, they conform to the shape of your ear, securing your AirPods Pro in place and creating an exceptional seal for superior noise cancellation\\n\\nAmazing audio quality\\n\\nA custom-built high-excursion, low-distortion driver delivers powerful bass. A super-efficient high dynamic range amplifier produces pure, incredibly clear sound while also extending battery life. And Adaptive EQ automatically tunes music to suit the shape of your ear for a rich, consistent listening experience.\\n\\nEven more magical\\n\\nThe Apple-designed H1 chip delivers incredibly low audio latency. A force sensor on the stem makes it easy to control music and calls, and switch between Active Noise Cancellation and Transparency mode. Announce Messages with Siri gives you the option to have Siri read your messages through your AirPods. And with Audio Sharing, you and a friend can share the same audio stream on two sets of AirPods — so you can play a game, watch a film or listen to a song together.",
+      "price": 249.99,
+      "category": 4,
+      "rating": 4.6,
+      "image": "airpods.jpg"
+    }
+  },
+  {
+    "pk": 3,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5001730010",
+      "name": "Apple Lightning Cable",
+      "description": "This USB 2.0 cable connects your iPhone, iPad or iPod with Lightning connector to your computer’s USB port for syncing and charging. Or you can connect to the Apple USB Power Adapter for convenient charging from a wall outlet.",
+      "price": 18.99,
+      "category": 4,
+      "rating": 4.7,
+      "image": "appcharger.jpg"
+    }
+  },
+  {
+    "pk": 4,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5001890157",
+      "name": "Acer Nitro 5",
+      "description": "Enjoy a cutting-edge performance with the Acer Nitro 5 15.6 Gaming Laptop. It features a 10th gen Core™ i5 processor and 8 GB of RAM, so it's powerful enough for all your favourite games.\\n\\nIt packs a powerful NVIDIA GeForce GTX 1650 graphics all set for Full HD gaming in high detail. And with the IPS screen, you can expect vivid colours and sharp contrasts - just what you need for immersive gaming.",
+      "price": 649.99,
+      "category": 3,
+      "rating": 4.5,
+      "image": "budgetlap.jpg"
+    }
+  },
+  {
+    "pk": 5,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5002111605",
+      "name": "Samsung Galaxy Buds Pro",
+      "description": "These are true wireless earbuds, with pro-grade technology for immersive sound like never before. While Intelligent ANC lets you seamlessly switch between noise canceling and fully adjustable ambient sound. So let the outside in - or keep it out. It's your world. Galaxy Buds Pro let you hear the best of it.",
+      "price": 219.99,
+      "category": 4,
+      "rating": 4.8,
+      "image": "buds.jpg"
+    }
+  },
+  {
+    "pk": 6,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5002260206",
+      "name": "Google Nest Mini (2nd Gen)",
+      "description": "Just like the original Mini, the Google Nest Mini is compact, discreet, and has the super-helpful Google Assistant built-in. This time round, the Nest Mini has bigger, richer sound with 2 x stronger bass and improved voice recognition",
+      "price": 48.99,
+      "category": 2,
+      "rating": 4.7,
+      "image": "googlenest.jpg"
+    }
+  },
+  {
+    "pk": 7,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5002440521",
+      "name": "Apple iMac 5k",
+      "description": "5K iMac, The beautiful iMac design that you know. But bigger and better. The Apple iMac 5K has been upgraded to give you all the power you need to tackle serious projects (as well as everything else you do each day). You've got a fast processor, impressive AMD graphics and a beautiful Retina Display.",
+      "price": 1689.99,
+      "category": 3,
+      "rating": 4.9,
+      "image": "imac.jpg"
+    }
+  },
+  {
+    "pk": 8,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5002601115",
+      "name": "Apple iPad Mini (2021)",
+      "description": "Edge-to-edge Liquid Retina display, With a stunning all-screen design, Apple iPad mini gives you more room to watch, work and create. The edge-to-edge Liquid Retina display brings content to life with vivid colours and sharp text, while ultra-low reflectivity lets you work from anywhere.",
+      "price": 479.99,
+      "category": 4,
+      "rating": 4.7,
+      "image": "ipadm.jpg"
+    }
+  },
+  {
+    "pk": 9,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5002690715",
+      "name": "Apple iPad Pro (2020)",
+      "description": "Featuring the Apple A12Z Bionic chip, the iPad Pro runs faster than most PC laptops. With eight-cores of power, you'll get a smooth and speedy performance whether it's social media or graphic-intensive editing apps. Designed with creators in mind, the processor can easily handle 4K video editing as well as AR and 3D design.",
+      "price": 999.99,
+      "category": 4,
+      "rating": 4.7,
+      "image": "ipadpro.jpg"
+    }
+  },
+  {
+    "pk": 10,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5002701115",
+      "name": "Apple Macbook Air M1 (2020)",
+      "description": "Thin and fast with the Apple M1 chip, Incredibly light and boasting a speedy performance, get your work done anywhere with the MacBook Air (2020).\\n\\nFrom video-editing to gaming, the Apple M1 chip lets you take on the biggest tasks without draining your battery. It's 3.5x faster than the previous generation, with eight-cores of power providing an incredible performance. And for whisper-quiet operation, the improved thermal efficiency means it doesn't even need a fan.",
+      "price": 949.99,
+      "category": 3,
+      "rating": 4.9,
+      "image": "macbook.jpg"
+    }
+  },
+  {
+    "pk": 11,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5002761055",
+      "name": "Apple Macbook Pro M1 (2020)",
+      "description": "Get more done with the Apple M1 chip, From video-editing to gaming, the Apple M1 chip lets you take on the biggest tasks and creative projects without draining your battery. It's 2.8x faster than the previous generation, with eight-cores of power providing an incredible performance.",
+      "price": 1200,
+      "category": 3,
+      "rating": 4.9,
+      "image": "macbookpro.jpg"
+    }
+  },
+  {
+    "pk": 12,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5002820069",
+      "name": "Oculus Rift S",
+      "description": "Oculus Rift S designed in collaboration with Lenovo puts you at the centre of virtual reality's most pulse-pounding, PC-powered gameplay. See the action unfold around you through our sharpest lenses and next-generation optics. Lose yourself in the experience with a comfortable, improved design that lets you start playing faster and keep playing longer. Oculus Rift S requires your Facebook account to log in, making it easy to meet up with friends in VR & discover communities around the world. USB 3.0 port. Windows PC only.",
+      "price": 299.99,
+      "category": 7,
+      "rating": 4.8,
+      "image": "oculus.jpg"
+    }
+  },
+  {
+    "pk": 13,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5002820147",
+      "name": "PlayStation 5 Console",
+      "description": "The PS5 console unleashes new gaming possibilities that you never anticipated, Experience lightning-fast loading with an ultra-high-speed SSD, deeper immersion with support for haptic feedback, adaptive triggers and 3D Audio, and an all-new generation of incredible PlayStation games",
+      "price": 459.99,
+      "category": 6,
+      "rating": 4.8,
+      "image": "ps5.jpg"
+    }
+  },
+  {
+    "pk": 14,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5002910572",
+      "name": "PlayStation VR Bundle",
+      "description": "Live the game: take gaming to new heights, depths and levels of immersion to discover breathtaking new worlds every time you put on the headset",
+      "price": 349.99,
+      "category": 7,
+      "rating": 4.7,
+      "image": "psvr.jpg"
+    }
+  },
+  {
+    "pk": 15,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5002990740",
+      "name": "Ring Doorbell 4",
+      "description": "1080p HD Video Doorbell with Two-Way Talk, Advanced Motion Detection, Colour Pre-Roll, enhanced dual-band wifi and Customisable Privacy Settings to help protect your home.",
+      "price": 179.99,
+      "category": 2,
+      "rating": 4.8,
+      "image": "ring.jpg"
+    }
+  },
+  {
+    "pk": 16,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5003050248",
+      "name": "ROG Zephyrus Duo 15",
+      "description": "With its innovative ROG ScreenPad Plus secondary display, the Zephyrus Duo 15 SE takes Windows 10 gaming to new dimensions. Cutting-edge cooling empowers the latest AMD Ryzen 9 5900H CPU and NVIDIA GeForce RTX 3070 GPU. A choice between ultrafast 300Hz/3ms or high-res 4K 120Hz/3ms gaming panels lets you tailor your system for pro-level esports or content creation. Elevate your entire experience with premium audio delivered by quad speakers and immersive Dolby Atmos surround sound.",
+      "price": 2499.99,
+      "category": 3,
+      "rating": 5,
+      "image": "roglaptop.jpg"
+    }
+  },
+  {
+    "pk": 17,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5003070787",
+      "name": "iRobot Roomba i7",
+      "description": "The Roomba® i7 robot vacuum uses a premium 3-Stage Cleaning System with Dual Multi-Surface Rubber Brushes and 10× suction* to clean different floor surfaces throughout your home. Roomba® i7 learns, maps, and adapts to each room, using Imprint™ Smart Mapping technology, letting you control which rooms are cleaned and when. Add the Clean Base™ Automatic Dirt Disposal and the robot automatically empties into a disposable bag, so you don’t have to think about vacuuming for weeks at a time. Cleaning power is always at your fingertips with the iRobot HOME App — you can control when, where, and how your robot cleans all from your smartphone.",
+      "price": 599.99,
+      "category": 2,
+      "rating": 4.7,
+      "image": "roomba.jpg"
+    }
+  },
+  {
+    "pk": 18,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5003090182",
+      "name": "Steam Deck 256GB",
+      "description": "Valve partnered with AMD to create Steam Deck's custom APU, optimized for handheld gaming. It is a Zen 2 + RDNA 2 powerhouse, delivering more than enough performance to run the latest AAA PC games in a very efficient power envelope.",
+      "price": 459.99,
+      "category": 6,
+      "rating": 4.8,
+      "image": "steamdeck.jpg"
+    }
+  },
+  {
+    "pk": 19,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5003090186",
+      "name": "Nintendo Switch OLED",
+      "description": "Meet the newest member of the Nintendo Switch family.The new system features a vibrant 7-inch OLED screen, a wide adjustable stand, a dock with a wired LAN port, 64 GB of internal storage, and enhanced audio.Play anytime, anywhere, with anyone. Nintendo Switch can transform to suit your situation, so you can play the games you want, no matter how busy life may be.",
+      "price": 309.99,
+      "category": 6,
+      "rating": 4.8,
+      "image": "switch.jpg"
+    }
+  },
+  {
+    "pk": 20,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5003161326",
+      "name": "Samsung Tab S7",
+      "description": "12.4-inch Super AMOLED display with 120Hz refresh rate. The biggest leap in S Pen responsiveness for true writing experiencePC-like DeXmode and Multi-Windows for seamless multitasking Storage of a laptop with expandable memory up to 1TB",
+      "price": 799.99,
+      "category": 4,
+      "rating": 4.8,
+      "image": "tab7.jpg"
+    }
+  },
+  {
+    "pk": 21,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5003230723",
+      "name": "Samsung USB-Type C",
+      "description": "Fast charging compatible: The USB-C cable can be used to fast-charge your mobile phone, tablet and other USB Type C devices",
+      "price": 4.99,
+      "category": 4,
+      "rating": 4.6,
+      "image": "usbc.jpg"
+    }
+  },
+  {
+    "pk": 22,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5003270936",
+      "name": "HTC VIVE PRO",
+      "description": "Explore VR content in brilliant clarity and bring out the finer details with a combined 4896 x 2448 resolution. See more of your environment.A wide 120° horizontal field of view (FOV) expands your visual experience and better aligns with the human eye, letting you see more naturally. Experience seamless, fluid visuals. Enjoy exceptional visual fluidity with 120Hz refresh rate. Experience graphics-intensive applications the way the creators intended.",
+      "price": 1300.99,
+      "category": 7,
+      "rating": 4.8,
+      "image": "vive.jpg"
+    }
+  },
+  {
+    "pk": 23,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5003360384",
+      "name": "Xbox Series X 1TB",
+      "description": "Xbox Series X is the fastest, most powerful Xbox gaming console. Experience 1,000s of titles from 4 generations of gaming on Series X – where games look and play better than ever.",
+      "price": 449.99,
+      "category": 6,
+      "rating": 4.8,
+      "image": "xbox.jpg"
+    }
+  },
+  {
+    "pk": 24,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5003440111",
+      "name": "Samsung Galaxy Z Flip 5G",
+      "description": "The new Samsung Galaxy Z Flip3 is here. With Samsung’s revolutionary hideaway hinge Infinity Flex Display, the future’s foldable.Actual. Folding. Glass.The world’s first real flexible glass screen. Ultra-thin and ultra-tough, it unfolds seamlessly into a crystal-clear full glass screen. See both phones up close and personal with Samsung Galaxy ExplorAR.",
+      "price": 1229.99,
+      "category": 4,
+      "rating": 4.9,
+      "image": "zflip.jpg"
+    }
+  }
+]
