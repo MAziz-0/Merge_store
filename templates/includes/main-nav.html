@@ -5,9 +5,9 @@
                 All Products
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="all-products-link">
-                <a href="" class="dropdown-item">By Price</a>
-                <a href="" class="dropdown-item ">By Rating</a>
-                <a href="" class="dropdown-item ">By Category</a>
+                <a href="{% url 'products' %}?sort=price&direction=asc" class="dropdown-item">By Price</a>
+                <a href="{% url 'products' %}?sort=price&direction=desc" class="dropdown-item ">By Rating</a>
+                <a href="{% url 'products' %}?sort=price&direction=asc" class="dropdown-item ">By Category</a>
                 <a href=" {% url 'products' %} " class="dropdown-item">All Products</a>
             </div>
         </li>
@@ -17,9 +17,9 @@
                 Electronics
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="tech-link">
-                <a href="{% url 'products' %}?category=smart-tech" class="dropdown-item">Smart Tech</a>
+                <a href="{% url 'products' %}?category=smart_tech" class="dropdown-item">Smart Tech</a>
                 <a href="{% url 'products' %}?category=computing" class="dropdown-item">Computing</a>
-                <a href="{% url 'products' %}?category=mobile-device" class="dropdown-item">Mobile Devices & Accessories</a>
+                <a href="{% url 'products' %}?category=mobile_device" class="dropdown-item">Mobile Devices & Accessories</a>
             </div>
         </li>
 
