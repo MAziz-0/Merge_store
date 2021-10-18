@@ -48,7 +48,7 @@
                                         <p class="my-0">£{{ item.product.price }}</p>
                                     </td>
                                     <td class="py-3 w-25">
-                                        <form class="form update-form" method="POST" action="{% url 'update_bag' item.item_id %}"></form>
+                                        <form class="form update-form" method="POST" action="{% url 'update_bag' item.item_id %}">
                                         {% csrf_token %}
                                         <div class="form-group">
                                             <div class="input-group">
@@ -134,8 +134,9 @@
     <script type="text/javascript">
         // Update quantity on click
         $('.update-link').click(function(e) {
-            var form = $(this).prev('.update-form');
-            form.submit();
+            // var form = $(this).prev('.update-form');
+            // var form = $('form.form.update-form').serializeArray();
+            $('form.form.update-form').submit();
         })
     
         // Remove item and reload on click

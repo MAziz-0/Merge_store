@@ -26,7 +26,6 @@ def add_to_bag(request, item_id):
 
 def update_bag(request, item_id):
     """ Adjust the quantity of the specified product in the shopping cart """
-
     quantity = int(request.POST.get('quantity'))
     bag = request.session.get('bag', {})
 
