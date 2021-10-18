@@ -8,22 +8,6 @@ def view_bag(request):
     return render(request, 'bag/bag.html')
 
 
-def adjust_bag(request, item_id):
-    """ Adjust the quantity of the specified product in the shopping cart """
-
-    quantity = int(request.POST.get('quantity'))
-    redirect_url = request.POST.get('redirect_url')
-    bag = request.session.get('bag', {})
-
-    if quantity > 0:
-        bag[item_id] = quantity
-    else:
-        bag.pop['item_id']
-
-    request.session['bag'] = bag
-    return redirect(reverse('view_bag'))
-
-
 def add_to_bag(request, item_id):
     """ Add a quantity of the specified product to the shopping bag """
 
@@ -38,3 +22,29 @@ def add_to_bag(request, item_id):
 
     request.session['bag'] = bag
     return redirect(redirect_url)
+
+
+def update_bag(request, item_id):
+    """ Adjust the quantity of the specified product in the shopping cart """
+
+    quantity = int(request.POST.get('quantity'))
+    updated = None
+    if 'product_updated' in request.POST:
+        updated = request.POST['product_updated']
+    bag = request.session.get('bag', {})
+
+    if updated:
+        if quantity > 0:
+            bag[item_id][updated] = quantity
+        else:
+            del bag[item_id][updated]
+            if not bag[item_id]:
+                bag.pop(item_id)
+    else:
+        if quantity > 0:
+            bag[item_id] = quantity
+        else:
+            bag.pop(item_id)        
+
+    request.session['bag'] = bag
+    return redirect(reverse('view_bag'))
