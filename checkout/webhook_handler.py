@@ -60,7 +60,7 @@ class StripeWH_Handler:
         # Update profile information if save_info was checked
         profile = None
         username = intent.metadata.username
-        if username != 'AnonymousUser':
+        if username != "AnonymousUser":
             profile = UserProfile.objects.get(user__username=username)
             if save_info:
                 profile.default_phone_number = shipping_details.phone
@@ -93,13 +93,14 @@ class StripeWH_Handler:
                 order_exists = True
                 break
             except Order.DoesNotExist:
-                attempt += 1
+                attempt = 1
                 time.sleep(1)
         if order_exists:
             self._send_confirmation_email(order)
             return HttpResponse(
                 content=f'Webhook received: {event["type"]} | SUCCESS: Verified order already in database',
-                status=200)
+                status=200,
+            )
         else:
             order = None
             try:
