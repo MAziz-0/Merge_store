@@ -1,1 +1,1 @@
-web: gunicorn merge-store.wsgi:application
+web: gunicorn merge_store.wsgi:application
