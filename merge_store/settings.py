@@ -118,15 +118,11 @@ WSGI_APPLICATION = 'merge_store.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.sqlite3',
-#         'NAME': BASE_DIR / 'db.sqlite3',
-#     }
-# }
-
 DATABASES = {
-    'default': dj_database_url.parse('postgres://fuowqedlsruahd:b19fa336e63a483d2705c08e425a43dbc34f0df81744cbaf79ebe59d40dc9308@ec2-52-17-1-206.eu-west-1.compute.amazonaws.com:5432/d3aqi0rq0g5chb')
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
+    },
 }
 
 
