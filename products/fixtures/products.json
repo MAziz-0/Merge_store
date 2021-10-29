@@ -18,7 +18,7 @@
     "fields": {
       "sku": "pp5001600425",
       "name": "Apple Airpods Pro",
-      "description": "AirPods Pro have been designed to deliver Active Noise Cancellation for immersive sound, Transparency mode so you can hear your surroundings and a customisable fit for all-day comfort. Just like AirPods, AirPods Pro connect like magic to your iPhone or Apple Watch. And they’re ready to use straight out of the case.\\n\\nActive Noise Cancellation\\n\\Incredibly light, noise-cancelling headphones, AirPods Pro block out your environment so you can focus on what you՚re listening to. AirPods Pro use two microphones, an outward-facing microphone and an inward-facing microphone, to create superior noise cancellation. By continuously adapting to the geometry of your ear and the fit of the ear tips, Active Noise Cancellation silences the world to keep you fully tuned in to your music, podcasts and calls.\\n\\nTransparency mode\\n\\nSwitch to Transparency mode and AirPods Pro let the outside sound in, allowing you to hear and connect to your surroundings. Outward- and inward-facing microphones enable AirPods Pro to undo the sound-isolating effect of the silicone tips so things sound and feel natural, like when you’re talking to people around you.\\n\\nAll-new design\\n\\nAirPods Pro offer a more customisable fit with three sizes of flexible silicone tips to choose from. With an internal taper, they conform to the shape of your ear, securing your AirPods Pro in place and creating an exceptional seal for superior noise cancellation\\n\\nAmazing audio quality\\n\\nA custom-built high-excursion, low-distortion driver delivers powerful bass. A super-efficient high dynamic range amplifier produces pure, incredibly clear sound while also extending battery life. And Adaptive EQ automatically tunes music to suit the shape of your ear for a rich, consistent listening experience.\\n\\nEven more magical\\n\\nThe Apple-designed H1 chip delivers incredibly low audio latency. A force sensor on the stem makes it easy to control music and calls, and switch between Active Noise Cancellation and Transparency mode. Announce Messages with Siri gives you the option to have Siri read your messages through your AirPods. And with Audio Sharing, you and a friend can share the same audio stream on two sets of AirPods — so you can play a game, watch a film or listen to a song together.",
+      "description": "AirPods Pro have been designed to deliver Active Noise Cancellation for immersive sound, Transparency mode so you can hear your surroundings and a customisable fit for all-day comfort. Just like AirPods, AirPods Pro connect like magic to your iPhone or Apple Watch. And they’re ready to use straight out of the case. Active Noise Cancellation Incredibly light, noise-cancelling headphones, AirPods Pro block out your environment so you can focus on what you՚re listening to. AirPods Pro use two microphones, an outward-facing microphone and an inward-facing microphone, to create superior noise cancellation. By continuously adapting to the geometry of your ear and the fit of the ear tips, Active Noise Cancellation silences the world to keep you fully tuned in to your music, podcasts and calls. Transparency mode: Switch to Transparency mode and AirPods Pro let the outside sound in, allowing you to hear and connect to your surroundings. Outward- and inward-facing microphones enable AirPods Pro to undo the sound-isolating effect of the silicone tips so things sound and feel natural, like when you’re talking to people around you. All-new design, AirPods Pro offer a more customisable fit with three sizes of flexible silicone tips to choose from. With an internal taper, they conform to the shape of your ear, securing your AirPods Pro in place and creating an exceptional seal for superior noise cancellation. Amazing audio quality. A custom-built high-excursion, low-distortion driver delivers powerful bass. A super-efficient high dynamic range amplifier produces pure, incredibly clear sound while also extending battery life. And Adaptive EQ automatically tunes music to suit the shape of your ear for a rich, consistent listening experience. Even more magical, The Apple-designed H1 chip delivers incredibly low audio latency. A force sensor on the stem makes it easy to control music and calls, and switch between Active Noise Cancellation and Transparency mode. Announce Messages with Siri gives you the option to have Siri read your messages through your AirPods. And with Audio Sharing, you and a friend can share the same audio stream on two sets of AirPods — so you can play a game, watch a film or listen to a song together.",
       "price": 249.99,
       "category": 4,
       "rating": 4.6,
@@ -43,8 +43,8 @@
     "model": "products.product",
     "fields": {
       "sku": "pp5001890157",
-      "name": "Acer Nitro 5",
-      "description": "Enjoy a cutting-edge performance with the Acer Nitro 5 15.6 Gaming Laptop. It features a 10th gen Core™ i5 processor and 8 GB of RAM, so it's powerful enough for all your favourite games.\\n\\nIt packs a powerful NVIDIA GeForce GTX 1650 graphics all set for Full HD gaming in high detail. And with the IPS screen, you can expect vivid colours and sharp contrasts - just what you need for immersive gaming.",
+      "name": "Acer Nitro 5 Laptop",
+      "description": "Enjoy a cutting-edge performance with the Acer Nitro 5 15.6 Gaming Laptop. It features a 10th gen Core™ i5 processor and 8 GB of RAM, so it's powerful enough for all your favourite games. It packs a powerful NVIDIA GeForce GTX 1650 graphics all set for Full HD gaming in high detail. And with the IPS screen, you can expect vivid colours and sharp contrasts - just what you need for immersive gaming.",
       "price": 649.99,
       "category": 3,
       "rating": 4.5,
@@ -122,7 +122,7 @@
     "fields": {
       "sku": "pp5002701115",
       "name": "Apple Macbook Air M1 (2020)",
-      "description": "Thin and fast with the Apple M1 chip, Incredibly light and boasting a speedy performance, get your work done anywhere with the MacBook Air (2020).\\n\\nFrom video-editing to gaming, the Apple M1 chip lets you take on the biggest tasks without draining your battery. It's 3.5x faster than the previous generation, with eight-cores of power providing an incredible performance. And for whisper-quiet operation, the improved thermal efficiency means it doesn't even need a fan.",
+      "description": "Thin and fast with the Apple M1 chip, Incredibly light and boasting a speedy performance, get your work done anywhere with the MacBook Air (2020). From video-editing to gaming, the Apple M1 chip lets you take on the biggest tasks without draining your battery. It's 3.5x faster than the previous generation, with eight-cores of power providing an incredible performance. And for whisper-quiet operation, the improved thermal efficiency means it doesn't even need a fan.",
       "price": 949.99,
       "category": 3,
       "rating": 4.9,
@@ -147,7 +147,7 @@
     "model": "products.product",
     "fields": {
       "sku": "pp5002820069",
-      "name": "Oculus Rift S",
+      "name": "Oculus Rift S VR Headset",
       "description": "Oculus Rift S designed in collaboration with Lenovo puts you at the centre of virtual reality's most pulse-pounding, PC-powered gameplay. See the action unfold around you through our sharpest lenses and next-generation optics. Lose yourself in the experience with a comfortable, improved design that lets you start playing faster and keep playing longer. Oculus Rift S requires your Facebook account to log in, making it easy to meet up with friends in VR & discover communities around the world. USB 3.0 port. Windows PC only.",
       "price": 299.99,
       "category": 7,
@@ -277,7 +277,7 @@
     "model": "products.product",
     "fields": {
       "sku": "pp5003270936",
-      "name": "HTC VIVE PRO",
+      "name": "HTC VIVE PRO VR Headset",
       "description": "Explore VR content in brilliant clarity and bring out the finer details with a combined 4896 x 2448 resolution. See more of your environment.A wide 120° horizontal field of view (FOV) expands your visual experience and better aligns with the human eye, letting you see more naturally. Experience seamless, fluid visuals. Enjoy exceptional visual fluidity with 120Hz refresh rate. Experience graphics-intensive applications the way the creators intended.",
       "price": 1300.99,
       "category": 7,
@@ -290,7 +290,7 @@
     "model": "products.product",
     "fields": {
       "sku": "pp5003360384",
-      "name": "Xbox Series X 1TB",
+      "name": "Xbox Series X 1TB Console",
       "description": "Xbox Series X is the fastest, most powerful Xbox gaming console. Experience 1,000s of titles from 4 generations of gaming on Series X – where games look and play better than ever.",
       "price": 449.99,
       "category": 6,
