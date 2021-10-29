@@ -298,7 +298,7 @@ input[name='q']::placeholder {
           height: calc(100vh - 116px);
       }
   
-      .display-4.logo-font.text-black {
+      .display-4.logo-font.text-white {
           font-size: 2rem;
       }
   
@@ -316,7 +316,7 @@ input[name='q']::placeholder {
       }
   
       #delivery-banner h4 {
-          font-size: .9rem;
+          font-size: .8rem;
       }
   
       .btn.btn-outline-black.rounded-0,
@@ -325,7 +325,7 @@ input[name='q']::placeholder {
       }
   
       .btn.btn-outline-black.rounded-0.btn-lg,
-      .btn.btn-black.rounded-0.btn-lg {
+      .btn.btn-white.rounded-0.btn-lg {
           padding: .375rem .375rem;
           font-size: .75rem;
       }
