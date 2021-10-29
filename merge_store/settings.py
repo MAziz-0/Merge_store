@@ -28,7 +28,7 @@ SECRET_KEY = 'django-insecure-5sa4a85)**jbjmu)_xj@923fe!e-i&oj4bh)57&zkna96mb7-q
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['merge-store.herokuapp.com', 'localhost']
 
 
 # Application definition
