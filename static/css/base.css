@@ -292,7 +292,7 @@ input[name='q']::placeholder {
     }
 
     .nav.navbar {
-        flex-wrap: wrap;
+        white-space: nowrap;
     }
 
     .display-4 {
