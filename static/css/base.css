@@ -291,8 +291,8 @@ input[name='q']::placeholder {
         height: calc(100vh - 116px);
     }
 
-    .display-4.logo-font.text-white {
-        font-size: 2rem;
+    .display-4 {
+        font-size: 1.5rem;
     }
 
     .nav-link {
