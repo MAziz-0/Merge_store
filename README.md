@@ -53,7 +53,7 @@ I have created a web application that showcases an e-commerce store that sells a
 
 *   ### Wireframes
 
-    -  Wireframe - [View](https://user-images.githubusercontent.com/41737293/126455811-def56c72-13dd-4e5a-8e68-b0bd971de246.JPG)
+    -  Wireframe - [View](https://user-images.githubusercontent.com/41737293/139533448-122d080b-a4ef-4440-af74-cb5a4fa73ddf.JPG)
 
    
 ## Features
@@ -90,7 +90,7 @@ I have created a web application that showcases an e-commerce store that sells a
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every project page to ensure no syntax errors.
 
 -   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://user-images.githubusercontent.com/41737293/126494547-baee4fec-3f8d-467c-b029-246fd333bbad.JPG)
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://user-images.githubusercontent.com/41737293/126573137-e0b77bed-258a-491c-92e5-d6e64168f775.JPG)
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://user-images.githubusercontent.com/41737293/139533492-0a5815c8-8464-43d8-bd86-79d373990202.JPG)
 
 
 ### Testing User Stories from User Experience (UX) Section
