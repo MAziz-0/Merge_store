@@ -211,6 +211,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 - Unable to load Heroku website in a website mockup generator to test responsiveness
 
+- Getting li cannot
+
 
 ### Heroku
 
