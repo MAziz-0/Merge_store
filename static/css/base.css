@@ -299,15 +299,20 @@ input[name='q']::placeholder {
       }
   
       .display-4.logo-font.text-white {
-          font-size: 2rem;
+          font-size: 1.5rem;
       }
   
       .nav-link {
           padding: 0.15rem;
       }
   
-      .nav-link i.fa-lg {
+      .nav-link i.fa-md {
           font-size: 1rem;
+      }
+
+      .navbar {
+          flex-wrap: nowrap;
+          padding: 0%;
       }
   
       .navbar-toggler {
