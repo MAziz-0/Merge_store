@@ -4,7 +4,7 @@
 
 I have created a web application that showcases an e-commerce store that sells a curated collection of highly-rated tech. Tech websites inspire Merge Store. Its clean interface and easy to navigate store has an urban and modern feeling aesthetic to it. I created a clean and approachable website that is a centrepiece for potential shoppers to interact with. The website consists of easily readable information pertaining to the products it provides with necessary images and product information. The key features of the website include a working shopping bag and checkout system.
 
-<h2 align="center"><img src="https://user-images.githubusercontent.com/41737293/126453913-4c77d2ff-69a3-48c5-8fe0-1812047b7dd3.JPG"></h2>
+<h2 align="center"><img src="https://user-images.githubusercontent.com/41737293/139531565-69c11160-6ce9-4d58-88ba-f919da33d474.png"></h2>
 
 
 ### Project Specifications

@@ -31,7 +31,7 @@ DEBUG = False
 ALLOWED_HOSTS = ['merge-store.herokuapp.com', 'localhost']
 
 
-# Application definition
+# Application definitio
 
 INSTALLED_APPS = [
     'django.contrib.admin',
