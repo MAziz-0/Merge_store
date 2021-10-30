@@ -295,8 +295,8 @@ input[name='q']::placeholder {
         white-space: nowrap;
     }
 
-    .display-4 {
-        font-size: 1rem;
+    .display-4.logo-font.text-white {
+        font-size: 2rem;
     }
 
     .nav-link {

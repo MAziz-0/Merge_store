@@ -157,7 +157,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
     8. As a First Time Visitor, I want to easily select the quantity of a product, add to checkout, and process an order.
 
-        1. Users can select the quantity of an item, add it to the shopping bag and finish checking out using the Stripe checkout system.
+        1. Users can select the quantity of an item, add it to the shopping bag and finish checking out using the Stripe checkout system. 
         
           - [View](https://user-images.githubusercontent.com/41737293/139529047-12b067f6-b1a7-4ee2-8438-1221168d9e1f.JPG)
 
@@ -207,7 +207,10 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Known Bugs
 
-There can be some visual delay when navigating the product pages due to the jpg images loading in. I have used a cache method to try to combat this.
+- There can be some visual delay when navigating the product pages due to the jpg images loading in. I have used a cache method to try to combat this.
+
+- Unable to load Heroku website in a website mockup generator to test responsiveness
+
 
 ### Heroku
 
