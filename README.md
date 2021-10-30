@@ -89,7 +89,7 @@ I have created a web application that showcases an e-commerce store that sells a
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every project page to ensure no syntax errors.
 
--   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://user-images.githubusercontent.com/41737293/126494547-baee4fec-3f8d-467c-b029-246fd333bbad.JPG)
+-   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - Unable to validate a Django routed page due to a child element being missing.
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://user-images.githubusercontent.com/41737293/139533492-0a5815c8-8464-43d8-bd86-79d373990202.JPG)
 
 
@@ -211,7 +211,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 - Unable to load Heroku website in a website mockup generator to test responsiveness
 
-- Getting li cannot
+- Due to Django routing, getting a validation error for HTML element (li) unable to fix without breaking padding on navbar
 
 
 ### Heroku
