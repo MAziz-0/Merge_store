@@ -327,7 +327,23 @@ input[name='q']::placeholder {
     border: 1px solid grey;
   }
   
+  .card {
+    border-radius: 5px;
+    background-color: #fff;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-top: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px
+}
 
+.blue-text {
+    color: #0091EA
+}
+
+.content {
+    font-size: 18px
+}
 
 /* fixed top navbar only on medium and up */
 @media (min-width: 992px) {
