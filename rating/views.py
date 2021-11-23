@@ -3,17 +3,22 @@ from django.shortcuts import render, get_object_or_404, redirect
 from django.contrib import messages
 from .models import Product, ReviewRating
 from django.http import HttpResponse
-from .forms import ReviewForm 
+from .forms import ReviewForm
+
 
 # Create your views here.
 def submit_review(request, product_id):
     url = request.META.get('HTTP_REFERER')
     if request.method == 'POST':
         try:
-            reviews = ReviewRating.objects.get(user__id=request.user.id, product__id=product_id)
+            reviews = ReviewRating.objects.get(
+                user__id=request.user.id, product__id=product_id
+                )
             form = ReviewForm(request.POST, instance=reviews)
             form.save()
-            messages.success(request, 'Thank you! Your review has been updated.')
+            messages.success(
+                request, 'Thank you! Your review has been updated.'
+                )
             return redirect(url)
         except ReviewRating.DoesNotExist:
             form = ReviewForm(request.POST)
@@ -26,5 +31,7 @@ def submit_review(request, product_id):
                 data.product_id = product_id
                 data.user_id = request.user.id
                 data.save()
-                messages.success(request, 'Thank you! Your review has been submitted.')
-                return redirect(url) 
+                messages.success(
+                    request, 'Thank you! Your review has been submitted.'
+                    )
+                return redirect(url)

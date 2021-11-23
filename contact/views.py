@@ -27,7 +27,7 @@ def contact(request):
                 fail_silently=False,
             )
         messages.success(
-            request, 'Your message has been received, we will contact you with further information regarding your query'
+            request, 'Your message has been received,we will contact you with further information regarding your query'
             )
         return redirect('contact')
     context = {
