@@ -2,7 +2,7 @@
 
 [View the live project here.](https://merge-store.herokuapp.com/)
 
-I have created a web application that showcases an e-commerce store that sells a curated collection of highly-rated tech. Tech websites inspire Merge Store. Its clean interface and easy to navigate store has an urban and modern feeling aesthetic to it. I created a clean and approachable website that is a centrepiece for potential shoppers to interact with. The website consists of easily readable information pertaining to the products it provides with necessary images and product information. The key features of the website include a working shopping bag and checkout system.
+I have created a web application that showcases an e-commerce store that sells a curated collection of highly-rated tech. Tech websites inspire Merge Store. Its clean interface and easy to navigate store has an urban and modern feeling aesthetic to it. I created a clean and approachable website that is a centrepiece for potential shoppers to interact with. The website consists of easily readable information pertaining to the products it provides with necessary images and product information. The key features of the website include a working shopping bag and checkout system.<br>
 
 <h2 align="center"><img src="https://user-images.githubusercontent.com/41737293/139531565-69c11160-6ce9-4d58-88ba-f919da33d474.png"></h2>
 
@@ -51,9 +51,9 @@ I have created a web application that showcases an e-commerce store that sells a
     -   #### Imagery
         -   Imagery is vital. The background hero images on the home page are designed to create an urban, modern feel to capture potential shoppers interests. All images for products show professional markups of the products, which are clear to the User.
 
-*   ### Wireframes
-
-    -  Wireframe - [View](https://user-images.githubusercontent.com/41737293/139533448-122d080b-a4ef-4440-af74-cb5a4fa73ddf.JPG)
+*   ### Wireframes <br>
+    
+    <h2 align="center"><img src="https://user-images.githubusercontent.com/41737293/139533448-122d080b-a4ef-4440-af74-cb5a4fa73ddf.JPG"></h2>
 
    
 ## Features
@@ -102,83 +102,85 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
         1. Upon entering the site, users are automatically greeted with a clean and inviting home page introducing the products. There is a Hero Image that has a modern urban look with the intention of captivating the shopper.
         2. There is a delivery banner informing the User of a deal, and the homepage indicates a new curated collection of items.
         
-        - [View](https://user-images.githubusercontent.com/41737293/139528510-9fa06baf-e881-4119-82c8-c9c56ea1fabd.JPG)
+         <h2 align="center"><img src="https://user-images.githubusercontent.com/41737293/139528510-9fa06baf-e881-4119-82c8-c9c56ea1fabd.JPG"></h2>
 
     2. As a First Time Visitor, I want to view a list of products.
 
         1. A navigation bar is available for the User categorising the product line into easy sections for the User to access what they wish to see.
        
-          - [View](https://user-images.githubusercontent.com/41737293/139528561-10cf0cac-da19-48be-b37d-8b7072465c30.JPG)
 
-          - [View](https://user-images.githubusercontent.com/41737293/139528538-42be1b78-70f8-4c00-a4ed-ec0435a03fcc.JPG)
+           <h2 align="center"><img src="https://user-images.githubusercontent.com/41737293/139528561-10cf0cac-da19-48be-b37d-8b7072465c30.JPG"></h2>
+
+           <h2 align="center"><img src="https://user-images.githubusercontent.com/41737293/139528538-42be1b78-70f8-4c00-a4ed-ec0435a03fcc.JPG"></h2>
 
 
     3. As a First Time Visitor, I want to view individual products in detail.
 
         1. I can select a product that takes me to the product page, which gives me more information on the item.
         
-          - [View](https://user-images.githubusercontent.com/41737293/139528567-feca0514-9092-4642-b10c-c77b95e406a0.JPG)
+
+           <h2 align="center"><img src="https://user-images.githubusercontent.com/41737293/139528567-feca0514-9092-4642-b10c-c77b95e406a0.JPG"></h2>
 
     4. As a First Time Visitor, I want to view the total of my purchases at any time
 
         1. I can see the total of my orders on the shopping bag icon, or I can see the full detail of the bag by clicking the shopping bag icon on the top right corner of the website.
         
-          - [View](https://user-images.githubusercontent.com/41737293/139528614-9c8849cb-61ea-4f8d-be65-c8c97cd3097b.JPG)
+
+           <h2 align="center"><img src="https://user-images.githubusercontent.com/41737293/139528614-9c8849cb-61ea-4f8d-be65-c8c97cd3097b.JPG"></h2>
     
     5. As a First Time Visitor, I want to easily register for an account, be able to log in and log out and recover my password and view my profile.
 
         1. User authentication options are all available via the My Account tab on the navigation bar.
         
-          - [View](https://user-images.githubusercontent.com/41737293/139528701-36d7abb3-5b42-4007-b1c4-d83c5ab0166d.JPG)
+           <h2 align="center"><img src="https://user-images.githubusercontent.com/41737293/139528701-36d7abb3-5b42-4007-b1c4-d83c5ab0166d.JPG"></h2>
 
-          - [View](https://user-images.githubusercontent.com/41737293/139528729-c5526223-eec9-4a7a-a76e-e0afe5313367.JPG)
+           <h2 align="center"><img src="https://user-images.githubusercontent.com/41737293/139528729-c5526223-eec9-4a7a-a76e-e0afe5313367.JPG"></h2>
 
-          - [View](https://user-images.githubusercontent.com/41737293/139528747-6032930b-ecad-4a36-84b3-ef8a96f898fc.JPG)
+           <h2 align="center"><img src="https://user-images.githubusercontent.com/41737293/139528747-6032930b-ecad-4a36-84b3-ef8a96f898fc.JPG"></h2>
 
-          - [View](https://user-images.githubusercontent.com/41737293/139528760-85362e5b-4b16-4966-9668-4766355c570f.JPG)
+           <h2 align="center"><img src="https://user-images.githubusercontent.com/41737293/139528760-85362e5b-4b16-4966-9668-4766355c570f.JPG"></h2>
 
-          - [View](https://user-images.githubusercontent.com/41737293/139528783-b96944a9-dee4-4841-88d0-01260e5c57e7.JPG)
+           <h2 align="center"><img src="https://user-images.githubusercontent.com/41737293/139528783-b96944a9-dee4-4841-88d0-01260e5c57e7.JPG"></h2>
 
-          - [View](https://user-images.githubusercontent.com/41737293/139528798-51809a7f-166f-4cdd-9018-afd01606f26f.JPG)
+           <h2 align="center"><img src="https://user-images.githubusercontent.com/41737293/139528798-51809a7f-166f-4cdd-9018-afd01606f26f.JPG"></h2>
 
-          - [View](https://user-images.githubusercontent.com/41737293/139528846-2f48e7b1-85f0-4039-9efe-f5e972e92268.JPG)
+           <h2 align="center"><img src="https://user-images.githubusercontent.com/41737293/139528846-2f48e7b1-85f0-4039-9efe-f5e972e92268.JPG"></h2>
 
     6. As a First Time Visitor, I want to be able to filter and sort products by category, price and rating.
 
         1. Sort dropdown is provided on the products page to filter by standard sorting parameters.
         
-          - [View](https://user-images.githubusercontent.com/41737293/139528887-49d7004e-0565-49ac-b3d2-e13cd406c605.JPG)
+           <h2 align="center"><img src="https://user-images.githubusercontent.com/41737293/139528887-49d7004e-0565-49ac-b3d2-e13cd406c605.JPG"></h2>
 
     7. As a First Time Visitor, I want to be able to search for a product by name or description and see results.
 
         1. Search functions are available on the navigation bar, allowing users to search by product name or description.
         
-          - [View](https://user-images.githubusercontent.com/41737293/139528967-99511e92-85b0-4e95-be01-6e1cfa7cdea2.JPG)
+           <h2 align="center"><img src="https://user-images.githubusercontent.com/41737293/139528967-99511e92-85b0-4e95-be01-6e1cfa7cdea2.JPG"></h2>
 
     8. As a First Time Visitor, I want to easily select the quantity of a product, add to checkout, and process an order.
 
         1. Users can select the quantity of an item, add it to the shopping bag and finish checking out using the Stripe checkout system. 
         
-          - [View](https://user-images.githubusercontent.com/41737293/139529047-12b067f6-b1a7-4ee2-8438-1221168d9e1f.JPG)
+           <h2 align="center"><img src="https://user-images.githubusercontent.com/41737293/139529047-12b067f6-b1a7-4ee2-8438-1221168d9e1f.JPG""""></h2>
 
-          - [View](https://user-images.githubusercontent.com/41737293/139529028-328ba6ff-deb9-40fe-bda5-f1b8a7da01e1.JPG)
+           <h2 align="center"><img src="https://user-images.githubusercontent.com/41737293/139529028-328ba6ff-deb9-40fe-bda5-f1b8a7da01e1.JPG"></h2>
 
-          - [View](https://user-images.githubusercontent.com/41737293/139529054-86f1d1c5-06fe-4cf6-8731-780cc964b115.JPG)
+           <h2 align="center"><img src="https://user-images.githubusercontent.com/41737293/139529054-86f1d1c5-06fe-4cf6-8731-780cc964b115.JPG"></h2>
 
-          - [View](https://user-images.githubusercontent.com/41737293/139529065-83791d55-bd3e-48d8-adc8-938fa59a962a.JPG)
+           <h2 align="center"><img src="https://user-images.githubusercontent.com/41737293/139529065-83791d55-bd3e-48d8-adc8-938fa59a962a.JPG"></h2>
 
-          - [View](https://user-images.githubusercontent.com/41737293/139529076-34254108-2b09-427a-af73-5db3bc873ab1.JPG)
-   
+           <h2 align="center"><img src="https://user-images.githubusercontent.com/41737293/139529076-34254108-2b09-427a-af73-5db3bc873ab1.JPG"></h2>
 
 -   #### Returning Visitor Goals
 
     1. As a Returning Visitor, I want to view my shopping bag to see what I have added to the bag.
         
-          - [View](https://user-images.githubusercontent.com/41737293/139529117-9b183b7a-76e3-4264-a245-ba98a2737894.JPG)
+        <h2 align="center"><img src="https://user-images.githubusercontent.com/41737293/139529117-9b183b7a-76e3-4264-a245-ba98a2737894.JPG"></h2>
 
     2. As a Returning Visitor, I want to view my profile to check my order history once I have made an order.
 
-          - [View](https://user-images.githubusercontent.com/41737293/139529138-f94af269-0d08-4f8a-b918-9d80fadc79fd.JPG)
+        <h2 align="center"><img src="https://user-images.githubusercontent.com/41737293/139529138-f94af269-0d08-4f8a-b918-9d80fadc79fd.JPG"></h2>
 
 
 -   #### Frequent User Goals
@@ -191,14 +193,22 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
         1. Admin users can update product pages to add items to the product line so normal users can frequent the website to look for new products.
 
-        - [View](https://user-images.githubusercontent.com/41737293/139529232-88e801c4-4294-41e5-925b-c9823d742175.JPG)
+         <h2 align="center"><img src="https://user-images.githubusercontent.com/41737293/139529232-88e801c4-4294-41e5-925b-c9823d742175.JPG"></h2>
 
     3. As a Frequent User, I want to navigate the website and find things where they are supposed to be.
 
         1. Navigation bar is simple and straightforward. 
         2. Finding what you need is not difficult as everything is placed visibly and makes sense.
     
+## Information Architechture:
 
+### Database Choice:
+
+- SQLight was used in development, as it comes pre-installed with Django.
+- PostgreSQL was used for the deployed site, as it is offered as an optional add-on by Heroku.
+
+
+  
 ### Further Testing
 
 -   The live project has been tested  on a variety of devices such as Desktop and Samsung Note 10 + 5G
@@ -260,6 +270,156 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 > remove: Total 10 (delta 1), reused 10 (delta 1)
 > Unpacking objects: 100% (10/10), done.
 ```
+### Heroku deployment with AWS:
+
+- The Merge Store website was deployed to [Heroku](https://www.heroku.com/) using the following steps:
+
+1. Install gunicorn, psycopg2-binary and dj-database-url using the ```PIP Install``` command.
+2. Freeze all the requirements for the project into a requirements.txt file using the ```pip3 freeze > requirements.txt``` command.
+3. Create a procfile, with the following inside it: ```web: gunicorn merge-store.wsgi:application```.
+4. Push these changes to GitHub, using ```git add .```, ```git commit -m``` and ```git push``` commands.
+5. Navigate to [Heroku](https://www.heroku.com/), and login or create an account.
+6. Once logged in, click on 'resources'.
+7. From the add-ons search bar, add the Heroku Postgres DB, select the free account, and then submit order form to add it to the project.
+8. From the app's dashboard, click on 'settings', and then 'reveal config vars' in order to set the necessary configuration variables for the project. 
+It should look like this: 
+
+| Key                   | Value                      |
+|-----------------------|----------------------------|
+| AWS_ACCESS_KEY_ID     | Your AWS Access Key        |
+| AWS_SECRET_ACCESS_KEY | Your AWS Secret Access Key |
+| DATABASE_URL          | Your Database URL          |
+| EMAIL_HOST_PASS       | Your Email Password        |
+| EMAIL_HOST_USER       | Your Email Address         |
+| SECRET_KEY            | Your Secret Key            |
+| STRIPE_PUBLIC_KEY     | Your Stripe Public Key     |
+| STRIPE_SECRET_KEY     | Your Stripe Secret Key     |
+| STRIPE_WH_SECRET      | Your Stripe WH Key         |
+| USE_AWS               | TRUE                       |
+
+9. Back on the main dashboard, click on 'deploy', and then under the 'Deployment' method section, select GitHub and 'Automatic Deploys'.
+10. Ensure that in settings.py, the following code is commented out:
+```
+Database
+ https://docs.djangoproject.com/en/3.1/ref/settings/#databases
+```
+and the at the following code is added:
+```
+DATABASES = {
+        'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
+    }
+```
+11. Make migrations using the following command:
+```
+python3 manage.py makemigrations
+```
+and migrate the database models to the Postgres database using the following command:
+```
+python3 manage.py migrate
+```
+12. Load the fixtures from the 'product_types.json' file and then from the 'products.json' file - which are contained in the 'fixtures' folder into the database. 
+This is done by using the following command:
+```
+python3 manage.py loaddata <file name>
+```
+13. Create a new superuser with the following command:
+```
+python3 manage.py createsuperuser
+```
+and then enter chosen email, username and password.
+14. In settings.py, contain the previously entered database setting in an if statement, and add an else condition, so that different databases are 
+used depending on the environment.
+```
+if 'DATABASE_URL' in os.environ:
+    DATABASES = {
+        'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
+    }
+else:
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.sqlite3',
+            'NAME': BASE_DIR / 'db.sqlite3',
+        }
+    }
+```
+15. Disable 'COLLECTSTATIC' with the fillowing code: ``` heroku config:set DISABLE_COLLECTSTATIC=1 ``` 
+so that Heroku doesn't attempt to collect the static files.
+16. Add ```ALLOWED_HOSTS = ['milestone-project-04.herokuapp.com', 'localhost']``` to settings.py.
+17. Add Stripe environment variables to settings.py.
+18. Push to Heroku using the following command:
+```git push heroku main```
+
+### Amazon Web Services:
+
+All Static and media files for the deployed version of the site are hosted in a Amazon Web Services(AWS) S3 bucket. 
+In order to create your own bucket, please follow the instructions on the AWS website 
+[Here](https://docs.aws.amazon.com/AmazonS3/latest/userguide/creating-bucket.html)
+
+1. In the gitpod terminal, install boto3 and django-storages using the following commands:
+```pip3 install boto3 ``` and ```pip3 install django-storages```
+2. Freeze the new requirements into the 'requirements.txt' file using the ```pip3 freeze > requirements.txt``` command
+3. Add 'storages' to INSTALLED_APPS in settings.py.
+4. Add the following code to settings.py in order to link the AWS bucket to the website:
+```
+if 'USE_AWS' in os.environ:
+    # Cache control
+    AWS_S3_OBJECT_PARAMETERS = {
+        'Expires': 'Thu, 31 Dec 2099 20:00:00 GMT',
+        'CacheControl': 'max-age=94608000',
+    }
+
+    # Bucket Config
+    AWS_STORAGE_BUCKET_NAME = 'milestone-project-04'
+    AWS_S3_REGION_NAME = 'eu-west-1'
+    AWS_ACCESS_KEY_ID = os.environ.get('AWS_ACCESS_KEY_ID')
+    AWS_SECRET_ACCESS_KEY = os.environ.get('AWS_SECRET_ACCESS_KEY')
+    AWS_S3_CUSTOM_DOMAIN = f'{AWS_STORAGE_BUCKET_NAME}.s3.amazonaws.com'
+
+    # Static and media files
+    STATICFILES_STORAGE = 'custom_storages.StaticStorage'
+    STATICFILES_LOCATION = 'static'
+    DEFAULT_FILE_STORAGE = 'custom_storages.MediaStorage'
+    MEDIAFILES_LOCATION = 'media'
+
+    # Override static and media URLs in production
+    STATIC_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/{STATICFILES_LOCATION}/'
+    MEDIA_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/{MEDIAFILES_LOCATION}/'
+```
+5. Create a custom_storages.py file in the root level of the project. Inside it, include the locations of the Static Storage and Media Storage.
+6. Delete DISABLE_COLLECTSTATIC from the Heroku Config Variables.
+7. Finally, push to GitHub, and all changes should be automatically pushed to Heroku too.
+
+### Making a Local Clone:
+In order to make a local clone of the FIT BEAST website, enter ```git clone https://github.com/atiqbeenrahim/milestone-project-04.git``` into the terminal. 
+
+
+Next, create an .env.py file in the root directory of the project, and add it to the .gitignore file. 
+The following code needs to be added to the .env.py file:
+```
+import os  
+os.environ["DEVELOPMENT"] = "True"    
+os.environ["SECRET_KEY"] = "<Your Secret Key>"
+os.environ["STRIPE_PUBLIC_KEY"] = "<Your Stripe Public Key>"    
+os.environ["STRIPE_SECRET_KEY"] = "<Your Stripe Secret Key>"    
+os.environ["STRIPE_WH_SECRET"] = "<Your Stripe WH Secret Key>"   
+```
+
+Then make sure that the required packages are installed by running the following command: 
+```pip install -r requirements.txt```
+
+Make migrations and then migrate in order to create a database, by running the following commands:
+```python3 manage.py makemigrations``` and ```python3 manage.py migrate```.
+
+Load the fixtures from the 'product_types.json' file and then from the 'products.json' file - which are contained in the 'fixtures' folder into the database. 
+This is done by using the following command:
+```
+    python3 manage.py loaddata <file name> 
+```
+
+Create a superuser with the following command: ```python3 manage.py runserver``` and entering your credentials.
+
+Run the app by entering the following command:
+```python3 manage.py runserver```
 
 ## Credits
 
