@@ -1,4 +1,4 @@
-<h1 align="center">Merge Store</h1>
+pip3 install django<h1 align="center">Merge Store</h1>
 
 [View the live project here.](https://merge-store.herokuapp.com/)
 
