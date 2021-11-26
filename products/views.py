@@ -1,8 +1,10 @@
 from django.shortcuts import render, redirect, reverse, get_object_or_404
+
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
 from django.db.models import Q
 from django.db.models.functions import Lower
+from rating.models import ReviewRating
 
 from .models import Product, Category
 from .forms import ProductForm
@@ -69,8 +71,13 @@ def product_detail(request, product_id):
 
     product = get_object_or_404(Product, pk=product_id)
 
+    reviews = ReviewRating.objects.filter(
+                product_id=product.id, status=True
+                )
+
     context = {
         'product': product,
+        'reviews': reviews,
     }
 
     return render(request, 'products/product_detail.html', context)

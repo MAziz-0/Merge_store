@@ -71,21 +71,19 @@
 				</p>
 			</div>
 		</div>
-{% for review in reviews %}
 		<div class="ml-auto">
-			<p class=" text-left text-muted pt-5 pt-sm-3">{{rating.user}}</p>
+{% for review in reviews %}
+			<p class="text-muted pt-5 pt-sm-3">{{review.user}}</p>
 		</div>
 	</div>
-	<div class="row text-left">
-		<h4 class="blue-text mt-3">{{rating.subject}}</h4>
-		<p class="content">{{review.review}}.</p>
+	<div class="row">
+		<h4 class="blue-text mt-3">{{review.subject}}</h4>
 	</div>
+	</div>
+	<div class="content">{{review.review}}.</div>
 {% endfor %}
 </div>
 </div>
 </div>
 </div>
-</div>
-
-
 {% endblock %}

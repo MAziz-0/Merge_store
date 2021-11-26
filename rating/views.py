@@ -19,6 +19,7 @@ def submit_review(request, product_id):
             messages.success(
                 request, 'Thank you! Your review has been updated.'
                 )
+            
             return redirect(url)
         except ReviewRating.DoesNotExist:
             form = ReviewForm(request.POST)
