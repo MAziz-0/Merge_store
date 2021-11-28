@@ -6,7 +6,8 @@
             </a>
         </li>
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-white mr-5" href="#" id="all-products-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="logo-font font-weight-bold nav-link text-white mr-5" href="#" id="all-products-link"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 All Products
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="all-products-link">
@@ -18,18 +19,21 @@
         </li>
 
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-white mr-5" href="#" id="tech-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="logo-font font-weight-bold nav-link text-white mr-5" href="#" id="tech-link"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Electronics
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="tech-link">
                 <a href="{% url 'products' %}?category=smart_tech" class="dropdown-item">Smart Tech</a>
                 <a href="{% url 'products' %}?category=computing" class="dropdown-item">Computing</a>
-                <a href="{% url 'products' %}?category=mobile_device" class="dropdown-item">Mobile Devices & Accessories</a>
+                <a href="{% url 'products' %}?category=mobile_device" class="dropdown-item">Mobile Devices &
+                    Accessories</a>
             </div>
         </li>
 
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-white mr-5" href="#" id="gaming-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="logo-font font-weight-bold nav-link text-white mr-5" href="#" id="gaming-link"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Gaming
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="gaming-link">
@@ -37,8 +41,11 @@
                 <a href="{% url 'products' %}?category=virtual_reality" class="dropdown-item">Virtual Reality</a>
             </div>
         </li>
-        <a class="logo-font font-weight-bold nav-link text-white mr-5" href="{% url 'contact' %}" id="#" aria-haspopup="true" aria-expanded="false">
-            Contact us
-        </a>
+        <li class="nav-item">
+            <a class="logo-font font-weight-bold nav-link text-white mr-5" href="{% url 'contact' %}" id="#"
+                aria-haspopup="true" aria-expanded="false">
+                Contact us
+            </a>
+        </li>
     </ul>
 </div>
