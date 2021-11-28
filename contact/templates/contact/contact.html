@@ -20,7 +20,7 @@
 
     <div class="row text-dark">
         <div class="col-12 col-lg-6 offset-lg-3">
-            <form method="POST" action="{% url 'contact' %}" class="form mb-2">
+            <form method="POST" action="{% url 'contact_view' %}" class="form mb-2">
                 {% csrf_token %}
                 {{ form|crispy }}
                 <div class="text-right mt-3 mb-5 text-center">
