@@ -37,11 +37,13 @@ I have created a web application that showcases an e-commerce store that sells a
 
         1. As a Returning Visitor, I want to view my shopping bag to see what I have added to the bag.
         2. As a Returning Visitor, I want to view my profile to check my order history once I have made an order.
+        
 
     -   #### Frequent User Goals
         1. As a Frequent User, I want to check to see if I can log into my account without issue.
         2. As a Frequent User, I want to check to see if there are new products added to the website.
         3. As a Frequent User, I want to navigate the website and find things where they are supposed to be.
+        4. As a Frequent User, I want to navigate the website and be able to create and view reviews for products.
 
 -   ### Design
     -   #### Colour Scheme
