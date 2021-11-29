@@ -539,8 +539,10 @@ Run the app by entering the following command:
 
 ### Acknowledgements
 
+-   Rathan Kumar (Instructional Youtube video [https://youtu.be/3KCBN7WJXMY])
+
 -   Python/Django logic learn from Code Institute Instructional videos 
 
 -   My Mentor for continuous helpful feedback.
 
--   Tutor support at Code Institute for their support.
+-   Tutor support at Code Institute for their support. 
