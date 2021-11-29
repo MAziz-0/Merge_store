@@ -25,6 +25,62 @@ I have created a web application that showcases an e-commerce store that sells a
 
 ## User Experience (UX)
 
+### Layout: 
+
+#### Accessible to all users via the Navbar:
+
+- All Pages:
+
+- **My Account**: 
+    - **Login**: Login for existing users.
+    - **Register**: Register as a user.
+- **Shopping Basket**:
+    - **Shopping Basket Icon**: Click here to navigate to the shopping basket page.
+- **Search**: Search the site using key words.
+- **All Products** dropdown with the following options:
+    - **By Price**: Display items by price.
+    - **By Ratings**: Display items by ratings.
+    - **By Categories**: Display items by categories.
+    - **All Products**: Display all products.
+- **Tech Items** dropdown with the following product options:
+    - **Smart Tech**: Smart connected devices
+    - **Computing**:  Computers and laptops
+    - **Mobile Devices & Accessories**: Shows mobile devices and accessories
+- **Gaming** dropdown with the following options:
+    - **Console**: Video consoles
+    - **Virtual Reality**: Virtual reality products
+   
+
+#### Accessible to logged-in registered users via the Navbar:
+
+-**My Account**:
+    - **My Profile**: Navigate to the session user's profile page.
+    - **Logout**: Log out of the site.
+
+#### Accessible only to Superusers(Admin) via the Navbar:
+
+-**Product Management**: Add products to the site.
+
+#### Accessible to all users on the Products page:
+
+-**Sort Box**: This allows the user to sort the items by price, rating, name and category.
+
+#### Accessible to Superusers(Admin) on the Products page:
+
+-**Edit**: This allows a superuser to edit a product.
+-**Delete**: ALlows a superuser to delete a product.
+
+#### Accessible to Superusers(Admin) on the Product Detail page:
+
+-**Edit**: This allows a superuser to edit a product.
+-**Delete**: This allows a superuser to delete a product.
+
+### Error Pages:
+
+-**404 Error Page**: A custom 404 error page was designed to redirect users back to the site in the event of a 404 error.
+
+-**500 Error Page**: A custom 505 error page was designed to redirect users back to the site in the event of a 500 error.
+
 -   ### User stories
 
     -   #### First Time Visitor Goals
@@ -78,14 +134,15 @@ I have created a web application that showcases an e-commerce store that sells a
 -   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 -   [Python](https://en.wikipedia.org/wiki/Python_(programming_language))
 
-### Frameworks, Libraries & Programs Used
+### Frameworks, Libraries/Dependencies & Programs Used
 
 - [Django](https://www.djangoproject.com/) was used as the principal framework for the project.
 - [Django Crispy Forms](https://django-crispy-forms.readthedocs.io/en/latest/) was used for all forms on the site.
 - [Django Allauth](https://django-allauth.readthedocs.io/en/latest/) was used for user authentication on the site.
 - [Stripe](https://stripe.com/) was used to handle payments on the site.
+- [Gunicorn](https://gunicorn.org/) used to interface web server
 - [Bootstrap 4](https://getbootstrap.com/) was used to aid responsive design.
-- [Amazon Web Services](https://aws.amazon.com/) S3 was used to store all static CSS and Javascript files and images.
+- [Amazon Web Services & SDK (boto3, Django-storages)](https://aws.amazon.com/) S3 was used to store all static CSS and Javascript files and images.
 - [SQLite3](https://www.sqlite.org/index.html) was used during development.
 - [PostgreSQL](https://www.postgresql.org/) was used in the final deployed site.
 - [Heroku](https://www.heroku.com/) hosts the Merge store website.
@@ -245,7 +302,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 ### Further Testing
 
 -   The live project has been tested  on a variety of devices such as Desktop and Samsung Note 10 + 5G
--   A large amount of testing was done to ensure that the website was responsive.
+-   A large amount of testing was done to ensure that the website was responsive. Lighthouse testing showed acceptable results.
 -   Friends and family members were requested to review the site and documentation to point out any bugs or user experience issues, and all were content with the browsing experience.
 
 ### Known Bugs
@@ -255,6 +312,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 - Unable to load Heroku website in a website mockup generator to test responsiveness
 
 - Due to Django routing, getting a validation error for HTML element (li) unable to fix without breaking padding on the navbar
+
+- The Navigation bar can sometimes freeze due to the load from static files cause dropdown links to not work perfectly.
 
 
 ### Heroku
