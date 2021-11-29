@@ -290,15 +290,16 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Database Choice:
 
-- SQLite was used during development, as it comes pre-installed with Django.
+**SQLite was used during development, as it comes pre-installed with Django.**
 
  <h2 align="center" style="width:500px;"><img src="https://user-images.githubusercontent.com/41737293/143863832-d98ff597-486a-4a3a-915e-7221db59a96f.JPG"></h2>
 
+**DATA MODEL SCHEMA [https://ondras.zarovi.cz/sql/demo/]**
 
 - PostgreSQL was used for the deployed site, as it is offered as an optional add-on by Heroku.
 
+<h2 align="center" style="width:500px;"><img src="https://user-images.githubusercontent.com/41737293/143897433-8bcb5b74-ee30-4a06-b7b4-8ebe7cb78c44.JPG"></h2>
 
-  
 ### Further Testing
 
 -   The live project has been tested  on a variety of devices such as Desktop and Samsung Note 10 + 5G
