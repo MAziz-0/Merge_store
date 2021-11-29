@@ -56,8 +56,10 @@ I have created a web application that showcases an e-commerce store that sells a
 #### Accessible to logged-in registered users via the Navbar:
 
 -**My Account**:
-    - **My Profile**: Navigate to the session user's profile page.
-    - **Logout**: Log out of the site.
+
+- **My Profile**: Navigate to the session user's profile page.
+    
+- **Logout**: Log out of the site.
 
 #### Accessible only to Superusers(Admin) via the Navbar:
 
@@ -70,11 +72,13 @@ I have created a web application that showcases an e-commerce store that sells a
 #### Accessible to Superusers(Admin) on the Products page:
 
 -**Edit**: This allows a superuser to edit a product.
+
 -**Delete**: ALlows a superuser to delete a product.
 
 #### Accessible to Superusers(Admin) on the Product Detail page:
 
 -**Edit**: This allows a superuser to edit a product.
+
 -**Delete**: This allows a superuser to delete a product.
 
 ### Error Pages:
