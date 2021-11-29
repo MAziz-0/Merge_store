@@ -73,26 +73,35 @@
 
 	</form>
 	{% for review in reviews %}
-	<div class="row d-flex">
-		<div class=" ml-auto">
+	<div class="card">
+		<div class="row d-flex">
+			<div class=" ml-auto">
+			</div>
+		</div>
+		<div class="row font-weight-bold text-black">{{review.user}}
+		</div>
+		<div class="row font-weight-light">
+			<span class="text-warning">
+				<i class="fa fa-star{% if review.rating == 0.5 %}-half-o{% elif review.rating < 1 %}-o {% endif %}"
+					aria-hidden="true"></i>
+				<i class="fa fa-star{% if review.rating == 1.5 %}-half-o{% elif review.rating < 2 %}-o {% endif %}"
+					aria-hidden="true"></i>
+				<i class="fa fa-star{% if review.rating == 2.5 %}-half-o{% elif review.rating < 3 %}-o {% endif %}"
+					aria-hidden="true"></i>
+				<i class="fa fa-star{% if review.rating == 3.5 %}-half-o{% elif review.rating < 4 %}-o {% endif %}"
+					aria-hidden="true"></i>
+				<i class="fa fa-star{% if review.rating == 4.5 %}-half-o{% elif review.rating < 5 %}-o {% endif %}"
+					aria-hidden="true"></i>
+			</span>
+		</div>
+		<div class="row">
+			<h4 class="blue-text mt-3">{{review.subject}}</h4>
+		</div>
+		<div class="row">{{review.review}}
 		</div>
 	</div>
-	<div class="row font-weight-bold text-black">{{review.user}}
-	</div>
-	<div class="row font-weight-light">
-		<span class="text-warning">
-			<i class="fa fa-star{% if review.rating == 0.5 %}-half-o{% elif review.rating < 1 %}-o {% endif %}" aria-hidden="true"></i>
-			<i class="fa fa-star{% if review.rating == 1.5 %}-half-o{% elif review.rating < 2 %}-o {% endif %}" aria-hidden="true"></i>
-			<i class="fa fa-star{% if review.rating == 2.5 %}-half-o{% elif review.rating < 3 %}-o {% endif %}" aria-hidden="true"></i>
-			<i class="fa fa-star{% if review.rating == 3.5 %}-half-o{% elif review.rating < 4 %}-o {% endif %}" aria-hidden="true"></i>
-			<i class="fa fa-star{% if review.rating == 4.5 %}-half-o{% elif review.rating < 5 %}-o {% endif %}" aria-hidden="true"></i>
-		</span>
-	</div>
-	<div class="row">
-		<h4 class="blue-text mt-3">{{review.subject}}</h4>
-	</div>
-	<div class="row">{{review.review}}
-	</div>
+	<br>
+	<br>
 	{% endfor %}
 </div>
 </div>
