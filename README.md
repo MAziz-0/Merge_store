@@ -2,7 +2,8 @@
 
 <h2 align="center">An e-commerce site for tech lovers</h2>
 
-[View the live project here.](https://merge-store.herokuapp.com/)
+[Visit Merge Store](https://merge-store.herokuapp.com/)
+<br>
 
 I have created a web application that showcases an e-commerce store that sells a curated collection of highly-rated tech. Tech websites inspire Merge Store. Its clean interface and easy to navigate store has an urban and modern feeling aesthetic to it. I created a clean and approachable website that is a centrepiece for potential shoppers to interact with. The website consists of easily readable information pertaining to the products it provides with necessary images and product information. The key features of the website include a working shopping bag and checkout system.<br>
 
@@ -112,13 +113,13 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 -   #### First Time Visitor Goals
 
-    1. As a First Time Visitor, I want to be pulled in by the presentation of the website.
+    As a First Time Visitor, I want to be pulled in by the presentation of the website.
 
-        Upon entering the site, users are automatically greeted with a clean and inviting home page introducing the products. There is a Hero Image that has a modern urban look with the intention of captivating the shopper.
+    Upon entering the site, users are automatically greeted with a clean and inviting home page introducing the products. There is a Hero Image that has a modern urban look with the intention of captivating the shopper.
 
-        There is a delivery banner informing the User of a deal, and the homepage indicates a new curated collection of items.
+    There is a delivery banner informing the User of a deal, and the homepage indicates a new curated collection of items.
         
-        <h2 align ="center" style="width:500px;"><img src="https://user-images.githubusercontent.com/41737293/139528510-9fa06baf-e881-4119-82c8-c9c56ea1fabd.JPG"></h2>
+    <h2 align ="center" style="width:500px;"><img src="https://user-images.githubusercontent.com/41737293/139528510-9fa06baf-e881-4119-82c8-c9c56ea1fabd.JPG"></h2>
 
     2. As a First Time Visitor, I want to view a list of products.
 
@@ -402,8 +403,8 @@ if 'USE_AWS' in os.environ:
     }
 
     # Bucket Config
-    AWS_STORAGE_BUCKET_NAME = 'milestone-project-04'
-    AWS_S3_REGION_NAME = 'eu-west-1'
+    AWS_STORAGE_BUCKET_NAME = 'merge-store'
+    AWS_S3_REGION_NAME = 'eu-west-2'
     AWS_ACCESS_KEY_ID = os.environ.get('AWS_ACCESS_KEY_ID')
     AWS_SECRET_ACCESS_KEY = os.environ.get('AWS_SECRET_ACCESS_KEY')
     AWS_S3_CUSTOM_DOMAIN = f'{AWS_STORAGE_BUCKET_NAME}.s3.amazonaws.com'
@@ -423,7 +424,7 @@ if 'USE_AWS' in os.environ:
 7. Finally, push to GitHub, and all changes should be automatically pushed to Heroku too.
 
 ### Making a Local Clone:
-In order to make a local clone of the FIT BEAST website, enter "`git clone https://github.com/atiqbeenrahim/milestone-project-04.git` "into the terminal. 
+In order to make a local clone of the Merge store website, enter "`git clone https://github.com/MAziz-0/merge_store` "into the terminal. 
 
 
 Next, create an .env.py file in the root directory of the project, and add it to the .gitignore file. 
