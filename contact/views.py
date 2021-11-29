@@ -9,10 +9,9 @@ def contact_view(request):
         if form.is_valid():
             form.save()
             messages.success(
-            request, 'Your message has been received,we will contact you with further information regarding your query'
+                request, 'You will be contacted shortly regarding this query'
             )
             return render(request, 'site/index.html')
-            
     form = ContactUsForm()
     context = {'form': form}
     return render(request, 'contact/contact.html', context)

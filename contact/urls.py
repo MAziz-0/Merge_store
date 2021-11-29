@@ -4,4 +4,3 @@ from . import views
 urlpatterns = [
     path('contact/', views.contact_view, name='contact_view'),
 ]
-
