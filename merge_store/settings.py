@@ -24,11 +24,11 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = os.environ.get(
-    'SECRET_KEY', '=4=&x763up9u8&z1)ej1l@$glls9=)fbkp4_t*pcenn5nk^al!'
+    'SECRET_KEY', ''
     )
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['merge-store.herokuapp.com', 'localhost']
 
