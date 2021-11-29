@@ -27,6 +27,8 @@ I have created a web application that showcases an e-commerce store that sells a
 
 ### Layout: 
 
+**More detailed images have been provided in the testing section**
+
 #### Accessible to all users via the Navbar:
 
 - All Pages:
