@@ -1,4 +1,4 @@
-<h1 align="center">Merge Store</h1>
+<h1 align="center">Merge Store</h1> No longer available as I have lost access to my Heroku Account
 
 <h2 align="center">An e-commerce site for tech lovers</h2>
 
